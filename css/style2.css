@@ -1,0 +1,82 @@
+/*
+Theme Name:     StartupBus Epic
+Theme URI:      http://startupbus.com
+Description:    StartupBus Static Homepage
+Author:         Steven Beeckman
+Author URI:     http://www.shadowmedia.be/
+Version:        1.0
+*/
+
+
+/* Mostly compiled from Rose's style.css of startupbus-new theme */
+.img-responsive {
+  opacity: .95;
+  margin: auto;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  }
+
+.thumbnail {
+  border: none;
+  background: none;
+  position:relative;
+    overflow:hidden;
+}
+
+.img1 {
+  height:100%;
+    overflow: hidden;
+}
+
+/* WordPress hack
+https://github.com/FortAwesome/Font-Awesome/wiki/Troubleshooting#stack-icons-inside-wordpress-posts
+*/
+.fa-stack br { display: none }
+
+.fa-md {
+  font-size: 24px;
+}
+
+.fa-big {
+  font-size: 48px;
+  color:#333;
+}
+
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(255, 255, 255, 0.95);
+    width:100%;
+    height:100%;
+    padding:10%;
+    text-align:center;
+    color:#444 !important;
+    z-index:2;
+    font-size: 13px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#community .caption p { font-size: 13px;
+  text-align: left;}
+
+.thumbnail .caption {
+  padding: 10px 10x;
+}
+
+.thumbnail:hover .caption {
+    top:0%;
+}
+
+li {
+  list-style: none;
+}
+
+#documentary {
+  height: ;
+}
