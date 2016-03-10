@@ -42,6 +42,34 @@
 			navbarAnimation(navbar, homeSection, navHeight);
 		});
 
+
+		/* ----------------------------------------------
+			Inform new try for invite code
+		* ----------------------------------------------- */
+
+		function getQueryParameter(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+
+		function checkFailedInviteCode(){
+			//console.log(getQueryParameter("status"));
+			if(getQueryParameter("status") == "failed"){
+				document.getElementById("invite").placeholder = "Wrong invite code, please try again";
+			}
+		}
+
+		checkFailedInviteCode();
+
+		$("#subscription-form").submit(function(e){
+			console.log("Does this get submitted?");
+			e.preventDefault();
+			console.log($("#invite").val());
+			location.href = "http://game.startupbus.com/api/invite/check/" + $("input#invite").val();
+		});
+
 		/* ---------------------------------------------- /*
 		 * Home section height
 		/* ---------------------------------------------- */
@@ -422,82 +450,6 @@
 			$('html, body').animate({ scrollTop: 0 }, 'slow');
 			return false;
 		});
-
-		/* ---------------------------------------------- /*
-		 * Subscribe form ajax
-		/* ---------------------------------------------- */
-
-		$('#subscription-form').submit(function(e) {
-
-			e.preventDefault();
-			var $form           = $('#subscription-form');
-			var submit          = $('#subscription-form submit');
-			var ajaxResponse    = $('#subscription-response');
-			var email           = $('input#semail').val();
-
-			$.ajax({
-				type: 'POST',
-				url: 'assets/php/subscribe.php',
-				dataType: 'json',
-				data: {
-					email: email
-				},
-				cache: false,
-				beforeSend: function(result) {
-					submit.empty();
-					submit.append('<i class="fa fa-cog fa-spin"></i> Wait...');
-				},
-				success: function(result) {
-					if(result.sendstatus == 1) {
-						ajaxResponse.html(result.message);
-						$form.fadeOut(500);
-					} else {
-						ajaxResponse.html(result.message);
-					}
-				}
-			});
-
-		});
-
-		/* ---------------------------------------------- /*
-		 * Google Map
-		/* ---------------------------------------------- */
-
-		/*var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
-
-		var $mapis = $('#map');
-
-		if ($mapis.length > 0) {
-
-			map = new GMaps({
-				streetViewControl : true,
-				overviewMapControl: true,
-				mapTypeControl: true,
-				zoomControl : true,
-				panControl : true,
-				scrollwheel: false,
-				center: mapLocation,
-				el: '#map',
-				zoom: 16,
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-			});
-
-			var image = new google.maps.MarkerImage('assets/images/map-icon.png',
-				new google.maps.Size(59, 65),
-				new google.maps.Point(0, 0),
-				new google.maps.Point(24, 42)
-			);
-
-			map.addMarker({
-				position: mapLocation,
-				icon: image,
-				title: 'Rival',
-				infoWindow: {
-					content: '<p><strong>Rival</strong><br/>121 Somewhere Ave, Suite 123<br/>P: (123) 456-7890<br/>Australia</p>'
-				}
-			});
-
-		}*/
 
 	});
 
