@@ -67,7 +67,7 @@
 			console.log("Does this get submitted?");
 			e.preventDefault();
 			console.log($("#invite").val());
-			location.href = "http://game.startupbus.com/api/2016/North%20America/check/" + $("input#invite").val();
+			location.href = "http://game.startupbus.com/api/2016/North%20America/invite/check/" + $("input#invite").val();
 		});
 
 		/* ---------------------------------------------- /*
