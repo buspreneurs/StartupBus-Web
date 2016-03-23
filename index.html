@@ -1,53 +1,33 @@
 ---
+title: home page
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>StartupBus - Become a Buspreneur!</title>
-  {% include head.html %}
-</head>
-  <body>
-  <!-- Preloader -->
-  <div class="page-loader">
-    <div class="loader">Loading...</div>
-  </div>
+{% include nav.html %}
+{% include home.html %}
 
-  {% include nav.html %}
-  {% include home.html %}
+<!-- Wrapper start -->
 
-  <!-- Wrapper start -->
+{% include about.html %}
+{% include how-we-roll.html %}
 
-  {% include about.html %}
-  {% include how-we-roll.html %}
+{% include global-scoreboard.html %}
 
-  {% include global-scoreboard.html %}
+{% include about-logistics-1.html %}
+{% include community-image.html %}
+{% include about-logistics-2.html %}
+{% include tldr.html %}
 
-  {% include about-logistics-1.html %}
-  {% include community-image.html %}
-  {% include about-logistics-2.html %}
-  {% include tldr.html %}
+{% include community.html %}
+{% include community-2.html %}
+{% include community-3.html %}
 
-  {% include community.html %}
-  {% include community-2.html %}
-  {% include community-3.html %}
+{% include team.html %}
+{% include buses.html %}
 
-  {% include team.html %}
-  {% include buses.html %}
+{% include testimonials.html %}
 
-  {% include testimonials.html %}
+{% include choose-your-adventure.html %}
 
-  {% include choose-your-adventure.html %}
+{% include rackspace-video.html %}
 
-  {% include rackspace-video.html %}
-
-  {% include fomo.html %}
-
-  <hr class="divider-w">
-
-  {% include widgets.html %}
-
-  <hr class="divider-d">
-
-  {% include footer.html %}
-  </body>
-</html>
+{% include fomo.html %}
