@@ -15,3 +15,29 @@ Cleveland:
 St. Louis:
   -
     name: Theresa Hines
+
+Mexico City:
+  -
+    name:     Arianna Pacheco
+
+  -
+    name: Daniel Yubi
+
+Vancouver:
+  -
+    name: Rui Da Costa
+
+San Francisco:
+  -
+    name: Giovanni Barbieri
+
+Tampa:
+  -
+    name: Justin Davis
+
+  -
+    name: Ashley Mooney
+
+New York City:
+  -
+    name: Killian Repasky
