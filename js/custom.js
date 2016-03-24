@@ -76,9 +76,9 @@
 
 		function buildHomeSection(homeSection) {
 			if (homeSection.length > 0) {
-				if (homeSection.hasClass('home-full-height')) {
-					homeSection.height($(window).height());
-				} else {
+				if (homeSection.hasClass('home-half-height')) {
+					homeSection.height($(window).height() * 0.5);
+				} else if (homeSection.hasClass('home-full-height')) {
 					homeSection.height($(window).height() * 0.85);
 				}
 			}
