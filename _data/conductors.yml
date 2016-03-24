@@ -1,0 +1,17 @@
+# TODO:
+#   Kinda like a database we can fill out these data files and query them during page generation
+#   Have an entry for each conductor
+
+Cleveland:
+  -
+    name:     Will Yaworsky
+    bio:      Here to kick ass and cut through bullshit, and guess what we're out of.
+    headshot: /images/headshots/2016/will.jpg
+
+  -
+    name: Ray Lewis
+    headshot: /images/headshots/2016/ray.jpg
+
+St. Louis:
+  -
+    name: Theresa Hines

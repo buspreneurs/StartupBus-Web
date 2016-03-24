@@ -1,6 +1,2 @@
-cshotwell.github.io/northamerica.startupbus.com
-
-
 # TODO
-
-- [ ] Home (epic)
+  - [ ] Check out all todo comments in the code `grep --exclude-dir=_site -r TODO .`

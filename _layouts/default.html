@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>StartupBus - Become a Buspreneur!</title>
+  <title>StartupBus | {{ page.title }}</title>
   {% include head.html %}
 </head>
   <body>
@@ -10,6 +10,7 @@
     <div class="loader">Loading...</div>
   </div>
 
+  {% include nav.html %}
   {{ content }}
 
   <hr class="divider-w">

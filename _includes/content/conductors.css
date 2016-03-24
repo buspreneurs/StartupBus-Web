@@ -1,0 +1,15 @@
+.conductors {
+  background: white;
+}
+
+.conductors .conductor {
+  text-align: center;
+}
+
+.conductors .conductor-headshot {
+  height: 250px;
+}
+
+.conductors .conductor-headshot img {
+  height: 100%;
+}
