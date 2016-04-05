@@ -23,7 +23,7 @@
       <!-- Portfolio list start -->
       <ul id="works-grid" class="works-grid works-grid-gut works-grid-3 works-hover-w">
 
-        {% for bus in site.buses %}
+        {% for bus in site.data.buses %}
         <!-- Portfolio item start -->
         <li class="work-item illustration webdesign">
         <a href="{{ bus.url }}">
@@ -31,7 +31,7 @@
               <img src="/images/work-1.jpg" alt="">
             </div>
             <div class="work-caption font-alt">
-              <h3 class="work-title">Belgium</h3>
+              <h3 class="work-title">{{ bus[0] }}</h3>
               <div class="work-descr">
                 Locked
               </div>

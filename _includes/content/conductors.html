@@ -6,8 +6,8 @@
       </div>
     </div>
     <div class="row">
-      {% for conductor in site.data.conductors[page.bus] %}
-        <div class="conductor col-md-{{ 12 | divided_by: site.data.conductors[page.bus].size }}">
+      {% for conductor in site.data.buses[page.bus].conductors %}
+        <div class="conductor col-md-{{ 12 | divided_by: site.data.buses[page.bus].conductors.size }}">
           <div class="conductor-headshot">
             <img src="{{ conductor.headshot }}" alt="A stunning photo of {{ conductor.name }}" class="img-circle">
           </div>

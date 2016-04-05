@@ -1,0 +1,49 @@
+{
+  "Cleveland": {
+    "conductors" : [{
+      "name": "Will Yaworsky",
+      "bio": "Here to kick ass and cut through bullshit, and guess what we're out of.",
+      "headshot": "/images/headshots/2016/will.jpg"
+    },
+    {
+      "name": "Ray Lewis",
+      "headshot": "/images/headshots/2016/ray.jpg"
+    }]
+  },
+  "St. Louis": [
+    "conductors" : [{
+      "name": "Theresa Hines"
+    }]
+  ],
+  "Mexico City": [
+    "conductors" : [{
+      "name": "Arianna Pacheco"
+    },
+    {
+      "name": "Daniel Yubi"
+    }]
+  ],
+  "Vancouver": [
+    "conductors" : [{
+      "name": "Rui Da Costa"
+    }]
+  ],
+  "San Francisco": [
+    "conductors" : [{
+      "name": "Giovanni Barbieri"
+    }]
+  ],
+  "Tampa": [
+    "conductors" : [{
+      "name": "Justin Davis"
+    },
+    {
+      "name": "Ashley Mooney"
+    }]
+  ],
+  "New York City": [
+    "conductors" : [{
+      "name": "Killian Repasky"
+    }]
+  ]
+}
