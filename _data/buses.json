@@ -8,42 +8,49 @@
     {
       "name": "Ray Lewis",
       "headshot": "/images/headshots/2016/ray.jpg"
-    }]
+    }],
+    "url" : "/cleveland"
   },
-  "St. Louis": [
+  "St. Louis": {
     "conductors" : [{
       "name": "Theresa Hines"
-    }]
-  ],
-  "Mexico City": [
+    }],
+    "url" : "/stlouis"
+  },
+  "Mexico City": {
     "conductors" : [{
       "name": "Arianna Pacheco"
     },
     {
       "name": "Daniel Yubi"
-    }]
-  ],
-  "Vancouver": [
+    }],
+    "url" : "/mexico"
+  },
+  "Vancouver": {
     "conductors" : [{
       "name": "Rui Da Costa"
-    }]
-  ],
-  "San Francisco": [
+    }],
+    "url" : "/vancouver"
+  },
+  "San Francisco": {
     "conductors" : [{
       "name": "Giovanni Barbieri"
-    }]
-  ],
-  "Tampa": [
+    }],
+    "url" : "/sanfrancisco"
+  },
+  "Tampa": {
     "conductors" : [{
       "name": "Justin Davis"
     },
     {
       "name": "Ashley Mooney"
-    }]
-  ],
-  "New York City": [
+    }],
+    "url" : "/tampa"
+  },
+  "New York City": {
     "conductors" : [{
       "name": "Killian Repasky"
-    }]
-  ]
+    }],
+    "url" : "/nyc"
+  }
 }
