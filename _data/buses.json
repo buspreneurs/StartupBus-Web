@@ -27,7 +27,7 @@
       "name": "Daniel Yubi"
     }],
     "url" : "/mexico",
-    "city_image" : ""
+    "city_image" : "/images/cities/cdmx.jpg"
 
   },
   "Vancouver": {
@@ -35,7 +35,7 @@
       "name": "Rui Da Costa"
     }],
     "url" : "/vancouver",
-    "city_image" : ""
+    "city_image" : "/images/cities/van.jpg"
 
   },
   "San Francisco": {
@@ -53,7 +53,7 @@
       "name": "Ashley Mooney"
     }],
     "url" : "/tampa",
-    "city_image" : ""
+    "city_image" : "/images/cities/tampa.jpg"
   },
   "New York City": {
     "conductors" : [{
