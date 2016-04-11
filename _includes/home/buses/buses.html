@@ -1,3 +1,12 @@
+<section id="buses" class="module bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3"></div>
+    </div>
+  </div>
+</section>
+
+
     <!-- Portfolio start -->
     <section id="buses" class="module bg-dark">
       <div class="container">
@@ -27,7 +36,18 @@
         <!-- Portfolio item start -->
         <li class="work-item illustration webdesign">
         <a href="/buses{{ bus[1].url }}">
-            <div class="work-image">
+          <div style="position:relative;overflow:hidden">
+            <img src="{{ bus[1].city_image }}" alt="" style="height:273px;width:100%">
+            <div style="position:absolute;top:0;left:0;background: black;opacity: 0.2;height:100%;width:100%"></div>
+            <img src="/images/sb.png" alt="" style="position:absolute;top:0;left:25%;width:50%">
+            <div style="text-align: center;top:75%;position: absolute;width: 100%;">
+              <div class="hs-title-size-2 font-alt" style="color:white">{{ bus[0] }}</div>
+            </div>
+
+          </div>
+
+
+<!--             <div class="work-image">
               <img src="{{ bus[1].city_image }}" alt="">
             </div>
             <div class="work-caption font-alt">
@@ -35,7 +55,7 @@
               <div class="work-descr">
                 Locked
               </div>
-            </div>
+            </div> -->
           </a>
         </li>
         {% endfor %}
