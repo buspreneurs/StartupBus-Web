@@ -2,12 +2,13 @@
   <section id="conductors" class="conductors conductors-section module-small">
     <div class="row">
       <div class="col-xs-12">
-        <h2 class="module-title font-alt">Introducing your {{ page.bus }} Bus Conductors:</h2>
+        <h2 class="module-title font-alt">Introducing your {{ page.bus }} Bus Conductor{% if site.data.buses[page.bus].conductors.size > 1 %}s{% endif %}:</h2>
       </div>
     </div>
     <div class="row">
+      <div class="col-md-3"></div>
       {% for conductor in site.data.buses[page.bus].conductors %}
-        <div class="conductor col-md-{{ 12 | divided_by: site.data.buses[page.bus].conductors.size }}">
+        <div class="conductor col-md-{{ 6 | divided_by: site.data.buses[page.bus].conductors.size }}">
           <div class="conductor-headshot">
             <img src="{% if conductor.headshot %}{{ conductor.headshot }}{% else %}/images/headshots/sb.png{% endif %}" alt="A stunning photo of {{ conductor.name }}" class="img-circle">
           </div>
