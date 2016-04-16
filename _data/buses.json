@@ -24,7 +24,9 @@
       "name": "Arianna Pacheco"
     },
     {
-      "name": "Daniel Yubi"
+      "name": "Daniel Yubi",
+      "bio" : Product Manager @Payclip, Co-founder of Local-e & Crafting Mexico. I love bringing concepts to reality. Just a crazy guy working on crazy projects."
+      "headshot": "/images/headshots/2016/yubi.jpg"
     }],
     "url" : "/mexico",
     "city_image" : "/images/cities/cdmx.jpg"
@@ -32,7 +34,9 @@
   },
   "Vancouver": {
     "conductors" : [{
-      "name": "Rui Da Costa"
+      "name": "Rui Da Costa",
+      "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
+      "headshot" : "/images/headshots/2016/rui.jpg"
     }],
     "url" : "/vancouver",
     "city_image" : "/images/cities/van.jpg"
