@@ -1,6 +1,8 @@
 {
   "Akron": {
-    "theme":"Maker",
+    "theme":{
+      "name":"Maker"
+    },
     "conductors" : [{
       "name": "Will Yaworsky",
       "bio": "Adding things to the internet one toaster at a time",
@@ -14,7 +16,9 @@
     "city_image": "/images/cities/akron.jpg"
   },
   "St. Louis": {
-    "theme":"Health and Fitness",
+    "theme": {
+      "name":"Health and Fitness"
+    },
     "conductors" : [{
       "name": "Theresa Hines"
     }],
@@ -22,7 +26,9 @@
     "city_image" : "/images/cities/stl.png"
   },
   "Mexico City": {
-    "theme":"Emerging Markets",
+    "theme":{
+      "name":"Emerging Markets"
+    },
     "conductors" : [{
       "name": "Arianna Pacheco"
     },
@@ -36,7 +42,10 @@
 
   },
   "Vancouver": {
-    "theme":"Social Impact",
+    "theme":{
+      "name":"Social Impact",
+      "description":"Teams from the Vancouver bus will be working with Social Impact as their theme. Basically, we want our buspreneurs to be building some kickass products and services that solve real-world social, cultural or environmental issues. So if you want to save the world, hop on the Vancouver bus!",
+    },
     "conductors" : [{
       "name": "Rui Da Costa",
       "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
@@ -47,7 +56,9 @@
 
   },
   "San Francisco": {
-    "theme":"Transportation",
+    "theme":{
+      "name":"Transportation"
+    },
     "conductors" : [{
       "name": "Giovanni Barbieri"
     }],
@@ -55,7 +66,9 @@
     "city_image" : "/images/cities/sfo.png"
   },
   "Tampa": {
-    "theme":"Food and Beverage",
+    "theme":{
+      "name":"Food and Beverage"
+    },
     "conductors" : [{
       "name": "Justin Davis"
     },
@@ -66,7 +79,9 @@
     "city_image" : "/images/cities/tampa.jpg"
   },
   "New York City": {
-    "theme":"Press and Media",
+    "theme":{
+      "name":"Press and Media"
+    },
     "conductors" : [{
       "name": "Killian Repasky"
     }],
