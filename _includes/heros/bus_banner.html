@@ -12,10 +12,13 @@
       <li class="bg-dark-60 bg-dark" style="background-image:url({{ site.data.buses[page.bus].city_image }})">
         <div class="hs-caption">
           <div class="caption-content">
-            <div class="hs-title-size-4 font-alt mb-30">
-              {{ page.bus }} Startup Bus
+            <div class="bus-name">
+              {{ page.bus }}
             </div>
-            <div class="hs-title-size-1 font-alt mb-40">
+            <div class="bus-theme mb-30">
+              The {{ site.data.buses[page.bus].theme }} Bus
+            </div>
+            <div class="bus-route mb-40">
             {{ page.bus_long }} -> Boulder, CO
             </div>
             <a href="/apply#apply" class="btn btn-primary btn-round">Apply</a>

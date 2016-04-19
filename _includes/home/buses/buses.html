@@ -10,7 +10,7 @@
 
             <h2 class="module-title font-alt">Our Buses</h2>
             <div class="module-subtitle font-sans-serif">
-              We currently have six buses lined up. Each bus will be unlocked once we have enough applicants for it so <u><a href="apply.html">apply now</a></u> and select the bus you're interested in.
+              We currently have seven buses lined up. Each bus will be unlocked once we have enough applicants for it so <u><a href="apply.html">apply now</a></u> and select the bus you're interested in.
             </div>
             <!--<div class="module-subtitle font-sans-serif">
               You can always try to tweet to <u><a href="https://twitter.com/TheStartupBus" target="_blank">@TheStartupBus</a></u> too!
@@ -28,15 +28,15 @@
         {% for bus in site.data.buses %}
         <!-- Portfolio item start -->
         <li class="work-item illustration webdesign">
-        <a href="/buses{{ bus[1].url }}">
+        <a href="/buses{{ bus[1].url }}" class="work-item-link">
           <div style="position:relative;overflow:hidden">
-            <img src="{{ bus[1].city_image }}" alt="" style="height:273px;width:100%">
-            <div style="position:absolute;top:0;left:0;background: black;opacity: 0.2;height:100%;width:100%"></div>
-            <img src="/images/sb.png" alt="" style="position:absolute;top:0;left:25%;width:50%">
-            <div style="text-align: center;top:75%;position: absolute;width: 100%;">
-              <div class="hs-title-size-2 font-alt" style="color:white">{{ bus[0] }}</div>
+            <img class="work-item-link-bg" src="{{ bus[1].city_image }}" alt=""/>
+            <div class="work-item-link-overlay"></div>
+            <img class="work-item-link-logo" src="/images/sb.png" alt=""/>
+            <div class="work-item-link-text">
+              <div class="work-item-link-title">{{ bus[0] }}</div>
+              <div class="work-item-link-subtitle">{{ bus[1].theme }}</div>
             </div>
-
           </div>
 
 

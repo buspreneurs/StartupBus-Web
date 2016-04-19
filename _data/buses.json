@@ -1,5 +1,6 @@
 {
   "Akron": {
+    "theme":"Maker",
     "conductors" : [{
       "name": "Will Yaworsky",
       "bio": "Adding things to the internet one toaster at a time",
@@ -13,6 +14,7 @@
     "city_image": "/images/cities/akron.jpg"
   },
   "St. Louis": {
+    "theme":"Health and Fitness",
     "conductors" : [{
       "name": "Theresa Hines"
     }],
@@ -20,6 +22,7 @@
     "city_image" : "/images/cities/stl.png"
   },
   "Mexico City": {
+    "theme":"Emerging Markets",
     "conductors" : [{
       "name": "Arianna Pacheco"
     },
@@ -33,6 +36,7 @@
 
   },
   "Vancouver": {
+    "theme":"Social Impact",
     "conductors" : [{
       "name": "Rui Da Costa",
       "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
@@ -43,6 +47,7 @@
 
   },
   "San Francisco": {
+    "theme":"Transportation",
     "conductors" : [{
       "name": "Giovanni Barbieri"
     }],
@@ -50,6 +55,7 @@
     "city_image" : "/images/cities/sfo.png"
   },
   "Tampa": {
+    "theme":"Food and Beverage",
     "conductors" : [{
       "name": "Justin Davis"
     },
@@ -60,6 +66,7 @@
     "city_image" : "/images/cities/tampa.jpg"
   },
   "New York City": {
+    "theme":"Press and Media",
     "conductors" : [{
       "name": "Killian Repasky"
     }],
