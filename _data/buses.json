@@ -66,6 +66,11 @@
     },
     "conductors" : [{
       "name": "Giovanni Barbieri"
+    }, 
+    {
+      "name": "Prateek Gupta",
+      "bio": "Developer Content @Pluralsight, ex-COO @airpair, SF Conductor @TheStartupBus, @DEMO Alumni, entrepreneur, traveler, foodie, and the family guy!",
+      "headshot" : "/images/headshots/2016/prateek.jpg"
     }],
     "url" : "/sanfrancisco",
     "city_image" : "/images/cities/sfo.png"
