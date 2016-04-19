@@ -1,5 +1,6 @@
 {
   "Akron": {
+    "name": "Akron, Ohio",
     "theme":{
       "name":"Maker"
     },
@@ -12,10 +13,11 @@
       "name": "Ray Lewis",
       "headshot": "/images/headshots/2016/ray.jpg"
     }],
-    "url" : "/akron",
+    "url" : "/ohio",
     "city_image": "/images/cities/akron.jpg"
   },
   "St. Louis": {
+    "name": "St. Louis",
     "theme": {
       "name":"Health and Fitness"
     },
@@ -26,6 +28,7 @@
     "city_image" : "/images/cities/stl.png"
   },
   "Mexico City": {
+    "name": "Mexico City",
     "theme":{
       "name":"Emerging Markets"
     },
@@ -42,6 +45,7 @@
 
   },
   "Vancouver": {
+    "name": "Vancouver",
     "theme":{
       "name":"Social Impact",
       "description":"Teams from the Vancouver bus will be working with Social Impact as their theme. Basically, we want our buspreneurs to be building some kickass products and services that solve real-world social, cultural or environmental issues. So if you want to save the world, hop on the Vancouver bus!",
@@ -56,6 +60,7 @@
 
   },
   "San Francisco": {
+    "name": "San Francisco",
     "theme":{
       "name":"Transportation"
     },
@@ -66,6 +71,7 @@
     "city_image" : "/images/cities/sfo.png"
   },
   "Tampa": {
+    "name": "Tampa",
     "theme":{
       "name":"Food and Beverage"
     },
@@ -79,6 +85,7 @@
     "city_image" : "/images/cities/tampa.jpg"
   },
   "New York City": {
+    "name": "New York City",
     "theme":{
       "name":"Press and Media"
     },
