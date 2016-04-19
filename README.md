@@ -1,2 +1,3 @@
-# TODO
-  - [ ] Check out all todo comments in the code `grep --exclude-dir=_site -r TODO .`
+Hi there!
+
+Anything you push to master will be automatically deployed.  
