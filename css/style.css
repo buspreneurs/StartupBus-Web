@@ -1302,13 +1302,13 @@ Price-tables
   color: #aaa;
 }
 
-.bus-title, .bus-theme, .bus-route {
+.bus-name, .bus-theme, .bus-route {
   font-family: "Roboto Condensed", sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 2px 1px rgba(0,0,0,.5);
 }
-.bus-title {
+.bus-name {
   font-size: 48px;
   letter-spacing: 2px;
 }
