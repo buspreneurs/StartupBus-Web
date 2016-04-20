@@ -96,7 +96,11 @@
     },
     "conductors" : [{
       "name": "Killian Repasky"
-    }],
+    }, {
+      "name": "Laura Cartegena",
+      "headshot" : "/images/headshots/2016/loli.jpg"
+    }
+}],
     "url" : "/nyc",
     "city_image" : "/images/cities/nyc.png"
   }
