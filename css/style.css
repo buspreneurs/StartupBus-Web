@@ -850,6 +850,7 @@ Home Section
 .hs-caption .btn-primary {
   background-color: #00AEEF;
   border-color: #00AEEF;
+  color: #fff;
 }
 .hs-caption .btn-primary:hover {
   color: #231F20;
