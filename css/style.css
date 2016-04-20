@@ -633,6 +633,10 @@ a:hover, a:focus {
   color: #aaa;
 }
 
+.btn-primary {
+  color: #fff;
+}
+
 .bg-dark a:hover, .bg-dark a:focus {
   color: #fff;
 }
@@ -828,6 +832,29 @@ Home Section
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+}
+
+.hs-caption .btn {
+  font-size: 16px;
+}
+.hs-caption .btn-border-w {
+  background: transparent;
+  color: #B1C3CE;
+  border-color: #B1C3CE;
+}
+.hs-caption .btn-border-w {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.hs-caption .btn-primary {
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+}
+.hs-caption .btn-primary:hover {
+  color: #231F20;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .hs-title-size-1 {
