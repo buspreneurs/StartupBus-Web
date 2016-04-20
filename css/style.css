@@ -842,7 +842,7 @@ Home Section
   color: #B1C3CE;
   border-color: #B1C3CE;
 }
-.hs-caption .btn-border-w {
+.hs-caption .btn-border-w:hover {
   background: transparent;
   color: #fff;
   border-color: #fff;
