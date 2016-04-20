@@ -22,7 +22,8 @@
       "name":"Health and Fitness"
     },
     "conductors" : [{
-      "name": "Theresa Hines"
+      "name": "Theresa Hines",
+      "bio": "Wake up. Drink Coffee. Solve problems. HuSTLe. Repeat"
     }],
     "url" : "/stlouis",
     "city_image" : "/images/cities/stl.png"
@@ -99,8 +100,7 @@
     }, {
       "name": "Laura Cartegena",
       "headshot" : "/images/headshots/2016/loli.jpg"
-    }
-}],
+    }],
     "url" : "/nyc",
     "city_image" : "/images/cities/nyc.png"
   }
