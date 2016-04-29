@@ -14,5 +14,3 @@ I hereby waive any right of inspection or approval of my appearance or the uses 
 Except as authorized by Producer, I will not, or authorize others to, receive or generate any monetary advantage from my appearance related to the Event or use or disclose to any party any information learned as a result of my participation in the Event for a content production that has not been publicly announced. Disclosure by me in violation of the foregoing shall constitute and be treated as a material breach of this Appearance Release which will cause irreparable harm to Producer.
 
 This is the complete and binding agreement between us, superseding all prior understandings and communications with respect to the subject matter hereof. This agreement cannot be terminated, rescinded or amended except by an agreement signed by the parties. I warrant that I am at least 18 years of age (or, if not, that my parent or legal guardian has agreed to the foregoing and signed below) and that I have the full and unrestricted right to enter into this agreement.
-
-[
