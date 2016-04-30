@@ -1,0 +1,10 @@
+<div class="sponsors">
+  <br><br><br><br>
+  {% for sponsorGroup in site.data.sponsors[page.bus] %}
+    {% if sponsorGroup.type == "row" %}
+      {% assign sponsors=sponsorGroup.params.sponsors %}
+      {% assign params=sponsorGroup.params %}
+      {% include content/sponsors/types/row.html %}
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,20 @@
+{
+  "Akron": [
+    {
+      "type": "row",
+      "params": {
+        "title": "Epic Sponsors",
+        "sponsors": [
+          {
+            "name": "Burton D. Morgon Foundation",
+            "logo": "http://www.crainscleveland.com/apps/pbcsi.dll/storyimage/CC/20151102/NEWS/151109981/AR/0/AR-151109981.jpg&MaxW=1400&MaxH=1400"
+          },
+          {
+            "name": "Knight Foundation",
+            "logo": "https://i.vimeocdn.com/portrait/10044751_300x300.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}
