@@ -1,17 +1,49 @@
 {
+  "Global": [
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 2,
+        "title": "Global Sponsors",
+        "noContainer": true,
+        "sponsors": [
+          {
+            "name": "Uber",
+            "logo": "https://cdn3.vox-cdn.com/thumbor/jBlJea_ktX_sENPJGBsN2UrK47Q=/0x34:800x567/1280x854/cdn0.vox-cdn.com/uploads/chorus_image/image/48711819/IMG_0713.0.0.jpg",
+            "link": "https://www.uber.com/"
+          },
+          {
+            "name": "Cisco",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/1280px-Cisco_logo.svg.png",
+            "link": "http://www.cisco.com/"
+          }
+        ]
+      }
+    }
+  ],
+
   "Akron": [
     {
-      "type": "row",
+      "type": "rival-boxed-gutter",
       "params": {
+        "cols": 3,
         "title": "Epic Sponsors",
         "sponsors": [
           {
             "name": "Burton D. Morgon Foundation",
+            "link": "http://bdmorganfdn.org/",
             "logo": "http://www.crainscleveland.com/apps/pbcsi.dll/storyimage/CC/20151102/NEWS/151109981/AR/0/AR-151109981.jpg&MaxW=1400&MaxH=1400"
           },
           {
             "name": "Knight Foundation",
+            "link": "http://www.knightfoundation.org/",
             "logo": "https://i.vimeocdn.com/portrait/10044751_300x300.jpg"
+          },
+          {
+            "name": "Bus",
+            "link": "google.com",
+            "logo": "https://media.giphy.com/media/3oEdv8QUZdEOYrAxwI/giphy.gif",
+            "description": "I's a bus"
           }
         ]
       }
