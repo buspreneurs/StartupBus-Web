@@ -23,6 +23,7 @@
     },
     "conductors" : [{
       "name": "Theresa Hines",
+      "headshot": "/images/headshots/2016/theresa.jpg",
       "bio": "Wake up. Drink Coffee. Solve problems. HuSTLe. Repeat"
     }],
     "url" : "/stlouis",
