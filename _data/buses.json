@@ -35,7 +35,8 @@
       "name":"Emerging Markets"
     },
     "conductors" : [{
-      "name": "Arianna Pacheco"
+      "name": "Arianna Pacheco",
+      "headshot": "/images/headshots/2016/arianna.png"
     },
     {
       "name": "Daniel Yubi",
