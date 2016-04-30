@@ -86,10 +86,12 @@
       "name":"Food and Beverage"
     },
     "conductors" : [{
-      "name": "Justin Davis"
+      "name": "Justin Davis",
+      "headshot": "/images/headshots/2016/justin.jpg"
     },
     {
-      "name": "Ashley Mooney"
+      "name": "Ashley Mooney",
+      "headshot": "/images/headshots/2016/ashley.jpg"
     }],
     "url" : "/tampa",
     "city_image" : "/images/cities/tampa.jpg"
@@ -100,7 +102,8 @@
       "name":"Press and Media"
     },
     "conductors" : [{
-      "name": "Killian Repasky"
+      "name": "Killian Repasky",
+      "headshot" : "/images/headshots/2016/killian.jpg"
     }, {
       "name": "Laura Cartegena",
       "headshot" : "/images/headshots/2016/loli.jpg"
