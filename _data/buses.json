@@ -2,16 +2,18 @@
   "Akron": {
     "name": "Akron, Ohio",
     "theme":{
-      "name":"Maker"
+      "name":"Maker",
+      "description": "Teams on the Akron bus will be working on businesses targeting the Internet of Things and the Maker movement.  Unlike other buses the Akron bus will have lots of hardware hacking and building of actual physical prototypes."
     },
     "conductors" : [{
       "name": "Will Yaworsky",
-      "bio": "Adding things to the internet one toaster at a time",
+      "bio": "Adding things to the internet one toaster at a time.",
       "headshot": "/images/headshots/2016/will.jpg"
     },
     {
       "name": "Ray Lewis",
-      "headshot": "/images/headshots/2016/ray.jpg"
+      "headshot": "/images/headshots/2016/ray.jpg",
+      "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
     }],
     "url" : "/ohio",
     "city_image": "/images/cities/akron.jpg"
@@ -71,7 +73,7 @@
       "name": "Giovanni Barbieri",
       "bio": "Hustler filling @StartupHouse with bootstrapping entrepreneurs. Former #firefighter with @acffiorentina blood in my veins. It might be contagious.",
       "headshot": "/images/headshots/2016/gio.jpg"
-    }, 
+    },
     {
       "name": "Prateek Gupta",
       "bio": "Developer Content @Pluralsight, ex-COO @airpair, SF Conductor @TheStartupBus, @DEMO Alumni, entrepreneur, traveler, foodie, and the family guy!",
