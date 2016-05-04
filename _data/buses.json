@@ -26,7 +26,8 @@
     },
     "conductors" : [{
       "name": "Arianna Pacheco",
-      "headshot": "/images/headshots/2016/arianna.png"
+      "headshot": "/images/headshots/2016/arianna.png",
+      "bio": "@ariannapacheco Business Designer @Brodmann52, Chief Get Shit Done Officer @Dev.f, the biggest hacker School in Latam. Startup Enthusiast, Girl in tech evangelist, Wannabe Foodie ;)"
     },
     {
       "name": "Daniel Yubi",
