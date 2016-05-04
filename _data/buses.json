@@ -83,11 +83,13 @@
     },
     "conductors" : [{
       "name": "Justin Davis",
-      "headshot": "/images/headshots/2016/justin.jpg"
+      "headshot": "/images/headshots/2016/justin.jpg",
+      "bio": "I help companies make products that rock. Co-founder and design at First Chair Partners. Creator of @gojampay. Also, bourbon."
     },
     {
       "name": "Ashley Mooney",
-      "headshot": "/images/headshots/2016/ashley.jpg"
+      "headshot": "/images/headshots/2016/ashley.jpg",
+      "bio": "Integrated Marketing Director in Tampa, FL with a  penchant for caffeine, cats and conversions."
     }],
     "url" : "/tampa",
     "city_image" : "/images/cities/tampa.jpg"
