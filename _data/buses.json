@@ -18,19 +18,7 @@
     "url" : "/ohio",
     "city_image": "/images/cities/akron.jpg"
   },
-  "St. Louis": {
-    "name": "St. Louis",
-    "theme": {
-      "name":"Health and Fitness"
-    },
-    "conductors" : [{
-      "name": "Theresa Hines",
-      "headshot": "/images/headshots/2016/theresa.jpg",
-      "bio": "Wake up. Drink Coffee. Solve problems. HuSTLe. Repeat"
-    }],
-    "url" : "/stlouis",
-    "city_image" : "/images/cities/stl.png"
-  },
+
   "Mexico City": {
     "name": "Mexico City",
     "theme":{
@@ -59,6 +47,11 @@
       "name": "Rui Da Costa",
       "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
       "headshot" : "/images/headshots/2016/rui.jpg"
+    },
+    {
+      "name": "Theresa Hines",
+      "headshot": "/images/headshots/2016/theresa.jpg",
+      "bio": "Wake up. Drink Coffee. Solve problems. HuSTLe. Repeat"
     }],
     "url" : "/vancouver",
     "city_image" : "/images/cities/van.jpg"
