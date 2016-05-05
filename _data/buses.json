@@ -65,7 +65,8 @@
   "San Francisco": {
     "name": "San Francisco",
     "theme":{
-      "name":"Transportation"
+      "name":"Transportation",
+      "description":"The transportation revolution is underway. No matter what time it is or where you're located, you’re minutes away from a ride. People are taking cars off the road by carpooling at the push of a button. And a new workforce of drivers is powering on-demand delivery. You can build the next great business on top of platforms like Uber, and in the process make getting from Point A to Point B more pleasant and productive. Hop in."
     },
     "conductors" : [{
       "name": "Giovanni Barbieri",
