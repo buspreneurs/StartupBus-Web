@@ -13,3 +13,20 @@
 .conductors .conductor-headshot img {
   height: 100%;
 }
+
+
+.mentors {
+  background: white;
+}
+
+.mentors .mentor {
+  text-align: center;
+}
+
+.mentors .mentor-headshot {
+  height: 175px;
+}
+
+.mentors .mentor-headshot img {
+  height: 100%;
+}

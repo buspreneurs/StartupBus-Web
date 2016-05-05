@@ -1,0 +1,32 @@
+<div class="main">
+  <section id="mentors" class="mentors mentors-section module-small">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="module-title font-alt">
+          {% unless site.data.buses[page.bus].mentors_title %}
+            Mentor{% if site.data.buses[page.bus].mentors.size > 1 %}s{% endif %} of the {{ page.bus }} bus:
+          {% else %}
+            {{ site.data.buses[page.bus].mentors_title }}
+          {% endunless %}
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">&nbsp;</div>
+      {% for mentor in site.data.buses[page.bus].mentors %}
+        <div class="mentor col-md-{{ 6 | divided_by: site.data.buses[page.bus].mentors.size }}">
+          <div class="mentor-headshot">
+            <img src="{% if mentor.headshot %}{{ mentor.headshot }}{% else %}/images/headshots/sb.png{% endif %}" alt="A stunning photo of {{ mentor.name }}" class="img-circle">
+          </div>
+          <div class="mentor-name">
+            <h3 class="font-alt">{{ mentor.name }}</h3>
+          </div>
+          <div class="mentor-bio">
+            {{ mentor.bio }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </section>
+</div>

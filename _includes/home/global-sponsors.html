@@ -1,17 +1,22 @@
-<div class="sponsors">
-  <br><br><br><br>
-  {% for sponsorGroup in site.data.sponsors.Global %}
-      {% assign sponsors=sponsorGroup.params.sponsors %}
-      {% assign params=sponsorGroup.params %}
+<div class="main">
+  <div class="container">
+  <section id="sponsors" class="sponsors sponsors-section module-small">
+    <div class="sponsors">
+      {% for sponsorGroup in site.data.sponsors.Global %}
+          {% assign sponsors=sponsorGroup.params.sponsors %}
+          {% assign params=sponsorGroup.params %}
 
-    {% case sponsorGroup.type %}
+        {% case sponsorGroup.type %}
 
-    {% when 'row' %}
-      {% include content/sponsors/types/row.html %}
+        {% when 'row' %}
+          {% include content/sponsors/types/row.html %}
 
-    {% when 'rival-boxed-gutter' %}
-      {% include content/sponsors/types/rival-boxed-gutter.html %}
+        {% when 'rival-boxed-gutter' %}
+          {% include content/sponsors/types/rival-boxed-gutter.html %}
 
-    {% endcase %}
-  {% endfor %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
 </div>
