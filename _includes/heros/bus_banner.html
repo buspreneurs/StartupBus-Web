@@ -18,9 +18,21 @@
             <div class="bus-theme mb-30">
               The {{ site.data.buses[page.bus].theme.name }} Bus
             </div>
-            <div class="bus-route mb-40">
-            {{ page.bus_long }} → Boulder, CO
-            </div>
+            {% unless site.data.buses[page.bus].primary_sponsor %}
+              <div class="bus-route mb-40">
+                {{ page.bus_long }} → Boulder, CO
+              </div>
+            {% endunless %}
+
+            {% if site.data.buses[page.bus].primary_sponsor %}
+              <div class="primary-sponsor">
+                <p>POWERED BY</p>
+                <img class="primary-sponsor" src="{{ site.data.buses[page.bus].primary_sponsor }}">
+              </div>
+            {% endif %}
+
+            <br/>
+            <br/>
             <a href="/apply#apply" class="btn btn-primary btn-round">Apply</a>
           </div>
         </div>

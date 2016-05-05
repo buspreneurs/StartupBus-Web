@@ -30,6 +30,10 @@ img {
   height: auto;
 }
 
+img.primary-sponsor {
+  max-width: 30%;
+}
+
 iframe {
   border: 0;
 }
