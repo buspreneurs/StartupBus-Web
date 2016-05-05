@@ -2,39 +2,32 @@
   "Akron": {
     "name": "Akron, Ohio",
     "theme":{
-      "name":"Maker"
+      "name":"Maker",
+      "description": "Teams on the Akron bus will be working on businesses targeting the Internet of Things and the Maker movement.  Unlike other buses the Akron bus will have lots of hardware hacking and building of actual physical prototypes."
     },
     "conductors" : [{
       "name": "Will Yaworsky",
-      "bio": "Adding things to the internet one toaster at a time",
+      "bio": "Adding things to the internet one toaster at a time.",
       "headshot": "/images/headshots/2016/will.jpg"
     },
     {
       "name": "Ray Lewis",
-      "headshot": "/images/headshots/2016/ray.jpg"
+      "headshot": "/images/headshots/2016/ray.jpg",
+      "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
     }],
     "url" : "/ohio",
     "city_image": "/images/cities/akron.jpg"
   },
-  "St. Louis": {
-    "name": "St. Louis",
-    "theme": {
-      "name":"Health and Fitness"
-    },
-    "conductors" : [{
-      "name": "Theresa Hines",
-      "bio": "Wake up. Drink Coffee. Solve problems. HuSTLe. Repeat"
-    }],
-    "url" : "/stlouis",
-    "city_image" : "/images/cities/stl.png"
-  },
+
   "Mexico City": {
     "name": "Mexico City",
     "theme":{
       "name":"Emerging Markets"
     },
     "conductors" : [{
-      "name": "Arianna Pacheco"
+      "name": "Arianna Pacheco",
+      "headshot": "/images/headshots/2016/arianna.png",
+      "bio": "@ariannapacheco Business Designer @Brodmann52, Chief Get Shit Done Officer @Dev.f, the biggest hacker School in Latam. Startup Enthusiast, Girl in tech evangelist, Wannabe Foodie ;)"
     },
     {
       "name": "Daniel Yubi",
@@ -55,6 +48,11 @@
       "name": "Rui Da Costa",
       "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
       "headshot" : "/images/headshots/2016/rui.jpg"
+    },
+    {
+      "name": "Theresa Hines",
+      "headshot": "/images/headshots/2016/theresa.jpg",
+      "bio": "Theresa is a UX/UI designer in St. Louis, MO who loves optimizing digital experiences, craft beer, and anything outdoors."
     }],
     "url" : "/vancouver",
     "city_image" : "/images/cities/van.jpg"
@@ -69,7 +67,7 @@
       "name": "Giovanni Barbieri",
       "bio": "Hustler filling @StartupHouse with bootstrapping entrepreneurs. Former #firefighter with @acffiorentina blood in my veins. It might be contagious.",
       "headshot": "/images/headshots/2016/gio.jpg"
-    }, 
+    },
     {
       "name": "Prateek Gupta",
       "bio": "Developer Content @Pluralsight, ex-COO @airpair, SF Conductor @TheStartupBus, @DEMO Alumni, entrepreneur, traveler, foodie, and the family guy!",
@@ -84,10 +82,14 @@
       "name":"Food and Beverage"
     },
     "conductors" : [{
-      "name": "Justin Davis"
+      "name": "Justin Davis",
+      "headshot": "/images/headshots/2016/justin.jpg",
+      "bio": "I help companies make products that rock. Co-founder and design at First Chair Partners. Creator of @gojampay. Also, bourbon."
     },
     {
-      "name": "Ashley Mooney"
+      "name": "Ashley Mooney",
+      "headshot": "/images/headshots/2016/ashley.jpg",
+      "bio": "Integrated Marketing Director in Tampa, FL with a  penchant for caffeine, cats and conversions."
     }],
     "url" : "/tampa",
     "city_image" : "/images/cities/tampa.jpg"
@@ -98,7 +100,8 @@
       "name":"Press and Media"
     },
     "conductors" : [{
-      "name": "Killian Repasky"
+      "name": "Killian Repasky",
+      "headshot" : "/images/headshots/2016/killian.jpg"
     }, {
       "name": "Laura Cartegena",
       "headshot" : "/images/headshots/2016/loli.jpg"
