@@ -22,12 +22,7 @@
             {{ page.bus_long }} → Boulder, CO
             </div>
             <a href="/apply#apply" class="btn btn-primary btn-round">Apply</a>
-            {% capture bus_invite %}
-              {{ site.data.buses[page.bus].invite }}
-            {% endcapture %}
-            {% if bus_invite %}
-              <div>{{ bus_invite }}</div>
-            {% endif %}
+            <div><a href="{{site.data.buses[page.bus].invite.url}}">{{ site.data.buses[page.bus].invite.text }}</div>
           </div>
         </div>
       </li>
