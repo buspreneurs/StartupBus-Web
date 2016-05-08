@@ -4,7 +4,7 @@
       <div class="col-xs-12">
         <h2 class="module-title font-alt">
           {% unless site.data.buses[page.bus].mentors_title %}
-            Mentor{% if site.data.buses[page.bus].mentors.size > 1 %}s{% endif %} of the {{ page.bus }} bus:
+            Mentor{% if site.data.buses[page.bus].mentors.size > 1 %}s{% endif %}:
           {% else %}
             {{ site.data.buses[page.bus].mentors_title }}
           {% endunless %}

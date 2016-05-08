@@ -22,7 +22,8 @@
   {% include content/bus_details.html %}
   {% include content/conductors.html %}
 
-
+  {% unless site.data.buses[page.bus].mentors_title %}
+  {% include content/mentors.html %}
 
   <hr class="divider-w">
 
