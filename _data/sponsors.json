@@ -56,7 +56,7 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 3,
+        "cols": 4,
         "title": "POWERED BY",
         "sponsors": [
           {
@@ -69,6 +69,13 @@
             "link": "http://www.knightfoundation.org/",
             "logo": "/images/sponsors/ohio/kf.png"
           },
+
+          {
+            "name": "",
+            "link": "https://www.uakron.edu/exl/",
+            "logo": "/images/sponsors/ohio/exl.png"
+          },
+
           {
             "name": "University of Akron Research Foundation",
             "link": "https://www.uakron.edu/research/uarf.dot",
@@ -96,7 +103,7 @@
           },
           {
             "name": "WasteBits",
-            "link": "wastebits.com",
+            "link": "http://wastebits.com",
             "logo": "/images/sponsors/ohio/wb.png"
           },
         ]
