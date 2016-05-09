@@ -28,35 +28,12 @@
         "cols": 3,
         "title": "",
         "sponsors": [
-
           {
             "name": "Tropo",
             "logo": "/images/sponsors/global/tropo.png",
             "link": "https://www.tropo.com/"
           },
 
-          {
-            "name": "Burton D. Morgon Foundation",
-            "link": "http://bdmorganfdn.org/",
-            "logo": "/images/sponsors/ohio/bdmf.png"
-          },
-          {
-            "name": "Knight Foundation",
-            "link": "http://www.knightfoundation.org/",
-            "logo": "/images/sponsors/ohio/kf.png"
-          }
-        ]
-      }
-    }
-  ],
-
-  "Akron": [
-    {
-      "type": "rival-boxed-gutter",
-      "params": {
-        "cols": 2,
-        "title": "Epic Sponsors",
-        "sponsors": [
           {
             "name": "Burton D. Morgon Foundation",
             "link": "http://bdmorganfdn.org/",
@@ -78,20 +55,74 @@
         "title": "",
         "sponsors": [
           {
-            "name": "CoverMyMeds",
-            "link": "http://www.covermymeds.com/",
-            "logo": "/images/sponsors/ohio/cmm.png"
+            "name": "",
+            "logo": "/images/sponsors/mexico/sync.png",
+            "link": "https://www.tropo.com/"
+          },
+
+          {
+            "name": "Burton D. Morgon Foundation",
+            "link": "http://bdmorganfdn.org/",
+            "logo": "/images/sponsors/ohio/bdmf.png"
+          },
+          {
+            "name": "Knight Foundation",
+            "link": "http://www.knightfoundation.org/",
+            "logo": "/images/sponsors/ohio/kf.png"
+          }
+        ]
+      }
+    }
+
+  ],
+
+  "Akron": [
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 3,
+        "title": "POWERED BY",
+        "sponsors": [
+          {
+            "name": "Burton D. Morgon Foundation",
+            "link": "http://bdmorganfdn.org/",
+            "logo": "/images/sponsors/ohio/bdmf.png"
+          },
+          {
+            "name": "Knight Foundation",
+            "link": "http://www.knightfoundation.org/",
+            "logo": "/images/sponsors/ohio/kf.png"
           },
           {
             "name": "University of Akron Research Foundation",
             "link": "https://www.uakron.edu/research/uarf.dot",
             "logo": "/images/sponsors/ohio/uarf.png"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 5,
+        "title": "SUPPORTERS",
+        "sponsors": [{},
+          {
+            "name": "CoverMyMeds",
+            "link": "http://www.covermymeds.com/",
+            "logo": "/images/sponsors/ohio/cmm.png"
           },
           {
             "name": "Balsamiq",
             "link": "https://balsamiq.com/",
             "logo": "/images/sponsors/ohio/balsamiq.png"
-          }
+          },
+          {
+            "name": "WasteBits",
+            "link": "wastebits.com",
+            "logo": "/images/sponsors/ohio/wb.png"
+          },
         ]
       }
     },
@@ -103,15 +134,10 @@
         "title": "",
         "sponsors": [{},
           {
-            "name": "WasteBits",
-            "link": "wastebits.com",
-            "logo": "/images/sponsors/ohio/wb.png"
-          },
-          {
             "name": "think[box]",
             "link": "http://thinkbox.case.edu/",
             "logo": "/images/sponsors/ohio/tb.png"
-          },
+          }, {},
           {
             "name": "Launchnet",
             "link": "http://students.case.edu/career/entre/launchnet/",
