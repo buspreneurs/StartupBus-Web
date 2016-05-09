@@ -28,7 +28,6 @@
         "cols": 3,
         "title": "",
         "sponsors": [
-          {},
 
           {
             "name": "Tropo",
@@ -36,7 +35,16 @@
             "link": "https://www.tropo.com/"
           },
 
-          {}
+          {
+            "name": "Burton D. Morgon Foundation",
+            "link": "http://bdmorganfdn.org/",
+            "logo": "/images/sponsors/ohio/bdmf.png"
+          },
+          {
+            "name": "Knight Foundation",
+            "link": "http://www.knightfoundation.org/",
+            "logo": "/images/sponsors/ohio/kf.png"
+          }
         ]
       }
     }
