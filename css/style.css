@@ -22,6 +22,7 @@ body {
   background: #fff;
   font: 400 12px/1.3 "Open Sans", sans-serif;
   color: #666;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
