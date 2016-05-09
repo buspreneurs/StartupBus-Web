@@ -36,7 +36,7 @@
             "link": "https://www.tropo.com/"
           },
 
-          {},
+          {}
         ]
       }
     }
@@ -66,18 +66,13 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 4,
+        "cols": 3,
         "title": "",
         "sponsors": [
           {
             "name": "CoverMyMeds",
             "link": "http://www.covermymeds.com/",
             "logo": "/images/sponsors/ohio/cmm.png"
-          },
-          {
-            "name": "WasteBits",
-            "link": "wastebits.com",
-            "logo": "/images/sponsors/ohio/wb.png"
           },
           {
             "name": "University of Akron Research Foundation",
@@ -88,6 +83,31 @@
             "name": "Balsamiq",
             "link": "https://balsamiq.com/",
             "logo": "/images/sponsors/ohio/balsamiq.png"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 5,
+        "title": "",
+        "sponsors": [{},
+          {
+            "name": "WasteBits",
+            "link": "wastebits.com",
+            "logo": "/images/sponsors/ohio/wb.png"
+          },
+          {
+            "name": "think[box]",
+            "link": "http://thinkbox.case.edu/",
+            "logo": "/images/sponsors/ohio/tb.png"
+          },
+          {
+            "name": "Launchnet",
+            "link": "http://students.case.edu/career/entre/launchnet/",
+            "logo": "/images/sponsors/ohio/lnet.png"
           }
         ]
       }
