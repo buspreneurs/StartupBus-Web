@@ -46,33 +46,9 @@
           }
         ]
       }
-    },
-
-    {
-      "type": "rival-boxed-gutter",
-      "params": {
-        "cols": 3,
-        "title": "",
-        "sponsors": [
-          {
-            "name": "",
-            "logo": "/images/sponsors/mexico/sync.png",
-            "link": "https://www.tropo.com/"
-          },
-
-          {
-            "name": "Burton D. Morgon Foundation",
-            "link": "http://bdmorganfdn.org/",
-            "logo": "/images/sponsors/ohio/bdmf.png"
-          },
-          {
-            "name": "Knight Foundation",
-            "link": "http://www.knightfoundation.org/",
-            "logo": "/images/sponsors/ohio/kf.png"
-          }
-        ]
-      }
     }
+
+
 
   ],
 
