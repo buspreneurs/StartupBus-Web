@@ -66,18 +66,29 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 5,
+        "cols": 4,
         "title": "",
         "sponsors": [
-          {}, {},
-
+          {
+            "name": "CoverMyMeds",
+            "link": "http://www.covermymeds.com/",
+            "logo": "/images/sponsors/ohio/cmm.png"
+          },
+          {
+            "name": "WasteBits",
+            "link": "wastebits.com",
+            "logo": "/images/sponsors/ohio/wb.png"
+          },
+          {
+            "name": "University of Akron Research Foundation",
+            "link": "https://www.uakron.edu/research/uarf.dot",
+            "logo": "/images/sponsors/ohio/uarf.png"
+          },
           {
             "name": "Balsamiq",
             "link": "https://balsamiq.com/",
             "logo": "/images/sponsors/ohio/balsamiq.png"
-          },
-
-          {}, {}
+          }
         ]
       }
     }
