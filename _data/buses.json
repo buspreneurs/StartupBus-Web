@@ -15,23 +15,6 @@
       "headshot": "/images/headshots/2016/ray.jpg",
       "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
     }],
-
-    "mentors" : [{
-      "name": "Will Yaworsky",
-      "bio": "Adding things to the internet one toaster at a time.",
-      "headshot": "/images/headshots/2016/will.jpg"
-    },
-    {
-      "name": "Ray Lewis",
-      "headshot": "/images/headshots/2016/ray.jpg",
-      "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
-    },
-    {
-      "name": "Ray Lewis",
-      "headshot": "/images/headshots/2016/ray.jpg",
-      "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
-    }],
-
     "url" : "/ohio",
     "city_image": "/images/cities/akron.jpg"
   },
@@ -96,6 +79,22 @@
       "bio": "Developer Content @Pluralsight, ex-COO @airpair, SF Conductor @TheStartupBus, @DEMO Alumni, entrepreneur, traveler, foodie, and the family guy!",
       "headshot" : "/images/headshots/2016/prateek.jpg"
     }],
+
+    "mentors" : [{
+      "name": "Bill Brister",
+      "bio": "challenging the status quo - disrupting the normal everyday - we all have a purpose",
+      "headshot" : "/images/headshots/2016/bill.jpg"
+    },
+    {
+      "name": "Keit Kollo",
+      "headshot": "/images/headshots/2016/keit.png",
+      "bio": "Passionate to the last pixel combining free spirit and love for technology. UX @WeavMusic & Director @theStartupBus Europe"
+    },
+    {
+      "name": "Andrew Noonan",
+      "headshot": "/images/headshots/sponsors/noonan.png",
+      "bio": "Developer Platform @uber. Formerly @asana, @Twitter & @Gnip. Skier. Mnt Biker. Is there WiFi on this plane?"
+    }],
     "url" : "/sanfrancisco",
     "city_image" : "/images/cities/sfo.png"
   },
@@ -120,14 +119,16 @@
   "New York City": {
     "name": "New York City",
     "theme":{
-      "name":"Press and Media"
+      "name":"Press and Media",
+      "description" : "How will your startup leverage the many platforms in todays market to create media and get the press they need to succeed? Whether you are a company or personal brand you use press and media to reach your clientele. Snapchat, Instagram, Twitter, Periscope & Facebook each allow us to produce and share media to generate press and gain exposure. New York City is not only a media hub but a city that relies on the press for information. The New York City bus will look at the way the press and media are used today and work to establish the platforms of tomorrow."
     },
     "conductors" : [{
-      "name": "Killian Repasky",
-      "headshot" : "/images/headshots/2016/killian.jpg"
+      "name": "Donald Whyte",
+      "headshot" : "/images/headshots/2016/donald.jpg"
     }, {
-      "name": "Laura Cartegena",
-      "headshot" : "/images/headshots/2016/loli.jpg"
+      "name": "Laura Cartagena",
+      "headshot" : "/images/headshots/2016/loli.jpg",
+      "bio" : "Producer at Picture Farm, Founder of Create Collect, creative & dreamer living and working in New York City."
     }],
     "url" : "/nyc",
     "city_image" : "/images/cities/nyc.png"
