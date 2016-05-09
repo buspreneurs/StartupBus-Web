@@ -119,14 +119,16 @@
   "New York City": {
     "name": "New York City",
     "theme":{
-      "name":"Press and Media"
+      "name":"Press and Media",
+      "description" : "How will your startup leverage the many platforms in todays market to create media and get the press they need to succeed? Wether you are a company or personal brand you use press and media to reach your clientele. Snapchat, Instagram, Twitter, Periscope & Facebook each allow us to produce and share media to generate press and gain exposure. New York City is not only a media hub but a city that relies on the press for information. The New York City bus will look at the way the press and media are used today and work to establish the platforms of tomorrow."
     },
     "conductors" : [{
-      "name": "Killian Repasky",
-      "headshot" : "/images/headshots/2016/killian.jpg"
+      "name": "Donald Whyte",
+      "headshot" : "/images/headshots/2016/donald.jpg"
     }, {
       "name": "Laura Cartegena",
-      "headshot" : "/images/headshots/2016/loli.jpg"
+      "headshot" : "/images/headshots/2016/loli.jpg",
+      "bio" : "Bio for me: Producer at Picture Farm, Founder of Create Collect, creative & dreamer living and working in New York City."
     }],
     "url" : "/nyc",
     "city_image" : "/images/cities/nyc.png"
