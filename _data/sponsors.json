@@ -56,7 +56,7 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 4,
+        "cols": 2,
         "title": "POWERED BY",
         "sponsors": [
           {
@@ -68,14 +68,21 @@
             "name": "Knight Foundation",
             "link": "http://www.knightfoundation.org/",
             "logo": "/images/sponsors/ohio/kf.png"
-          },
+          }
+        ]
+      }
+    },
 
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 2,
+        "sponsors": [
           {
             "name": "",
             "link": "https://www.uakron.edu/exl/",
             "logo": "/images/sponsors/ohio/exl.png"
           },
-
           {
             "name": "University of Akron Research Foundation",
             "link": "https://www.uakron.edu/research/uarf.dot",
@@ -85,12 +92,13 @@
       }
     },
 
+
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 5,
+        "cols": 3,
         "title": "SUPPORTERS",
-        "sponsors": [{},
+        "sponsors": [
           {
             "name": "CoverMyMeds",
             "link": "http://www.covermymeds.com/",
@@ -102,10 +110,10 @@
             "logo": "/images/sponsors/ohio/balsamiq.png"
           },
           {
-            "name": "WasteBits",
-            "link": "http://wastebits.com",
-            "logo": "/images/sponsors/ohio/wb.png"
-          },
+            "name": "Hotcards",
+            "link": "http://www.hotcards.com",
+            "logo": "/images/sponsors/ohio/hc.png"
+          }
         ]
       }
     },
@@ -113,18 +121,18 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 5,
+        "cols": 3,
         "title": "",
-        "sponsors": [{},
+        "sponsors": [
           {
             "name": "think[box]",
             "link": "http://thinkbox.case.edu/",
             "logo": "/images/sponsors/ohio/tb.png"
           },
           {
-            "name": "Hotcards",
-            "link": "http://www.hotcards.com",
-            "logo": "/images/sponsors/ohio/hc.png"
+            "name": "WasteBits",
+            "link": "http://wastebits.com",
+            "logo": "/images/sponsors/ohio/wb.png"
           },
           {
             "name": "Launchnet",
