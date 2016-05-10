@@ -120,7 +120,10 @@
             "name": "think[box]",
             "link": "http://thinkbox.case.edu/",
             "logo": "/images/sponsors/ohio/tb.png"
-          }, {},
+          },
+          {
+
+          },
           {
             "name": "Launchnet",
             "link": "http://students.case.edu/career/entre/launchnet/",
