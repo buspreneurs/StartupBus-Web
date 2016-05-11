@@ -5,6 +5,23 @@
       "name":"Maker",
       "description": "Teams on the Akron bus will be working on businesses targeting the Internet of Things and the Maker movement.  Unlike other buses the Akron bus will have lots of hardware hacking and building of actual physical prototypes."
     },
+
+    "mentors" : [{
+      "name": "Chris Bue",
+      "bio": "Nerdy girl embroiled in torrid love affair with her Roomba. Makes spreadsheets. Runs MakerBiz Chicago. Conductor of 2015 @StartupBusMAKE.",
+      "headshot" : "/images/headshots/2016/bue.jpg"
+    },
+    {
+      "name": "Christopher Laco",
+      "headshot": "/images/headshots/2016/laco.png",
+      "bio": "Sr. Mgr, Software Development @Rackspace. Co Founder of @Wastebits. 3 time bus alumni with a StartupBus tattoo. Perl lover. Ruby on Rails rider. Musician."
+    },
+    {
+      "name": "Gordon Schorr",
+      "headshot": "/images/headshots/2016/gordon.jpg",
+      "bio": "Specializes in bringing natural and logical networks together to make others successful."
+    }],
+
     "conductors" : [{
       "name": "Will Yaworsky",
       "bio": "Adding things to the internet one toaster at a time.",
