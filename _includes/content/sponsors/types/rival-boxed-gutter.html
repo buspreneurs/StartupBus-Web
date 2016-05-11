@@ -1,28 +1,19 @@
-{% unless params.noContainer %}
-  <div class="container">
-{% endunless %}
-
-  {% if params.title %}
-    <h2 class="font-alt text-center">{{ params.title }}</h2>
-  {% endif %}
-
-
+<div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <ul id="works-grid" class="works-grid works-grid-gut works-grid-{{ params.cols }} works-hover-w">
+    <div class="col-md-10 col-md-offset-1">
+      {% if params.title %}
+      <h2 class="font-alt text-center">{{ params.title }}</h2>
+      {% endif %}
+      <ul class="row flex-container">
         {% for sponsor in sponsors %}
-          <li class="work-item illustration webdesign" style="">
+        {% assign columns = 12 %}
+          <li class="sponsor col-md-{{ (columns | divided_by: params.cols) }}">
             <a href="{{ sponsor.link }}" target="__blank">
-              <div class="work-image">
-                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" style="">
-              </div>
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"/>
             </a>
           </li>
         {% endfor %}
       </ul>
     </div>
   </div>
-
-{% unless params.noContainer %}
-  </div>
-{% endunless %}
+</div>
