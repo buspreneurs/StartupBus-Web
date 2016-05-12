@@ -175,6 +175,20 @@
       }
     }
   ],
+  "New York City": [
+    {
+      "type": "row",
+      "params": {
+        "title": "Sponsors",
+        "cols": 3,
+        "sponsors": [
+          { "name": "BuzzJs", "size": 4, "logo": "/images/sponsors/nyc/buzzjs.jpeg" },
+          { "name": "Brooklyn Brewery", "size": 4, "logo": "/images/sponsors/nyc/brooklyn.png" },
+          { "name": "Club-Mate", "size": 4, "logo": "/images/sponsors/nyc/club-mate.png" }
+        ]
+      }
+    }
+  ],
   "Vancouver": [
     {
       "type": "rival-boxed-gutter",

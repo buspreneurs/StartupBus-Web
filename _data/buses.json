@@ -148,19 +148,6 @@
       "headshot" : "/images/headshots/2016/loli.jpg",
       "bio" : "Producer at Picture Farm, Founder of Create Collect, creative & dreamer living and working in New York City."
     }],
-    "sponsors": [
-      {
-        "type": "row",
-        "params": {
-          "title": "Sponsors",
-          "sponsors": [
-            { "name": "BuzzJs", "size": 4, "logo": "/images/nyc/buzzjs.jpeg" },
-            { "name": "Brooklyn Brewery", "size": 4, "logo": "/images/nyc/brooklyn.png" },
-            { "name": "Club-Mate", "size": 4, "logo": "/images/nyc/club-mate.png" }
-          ]
-        }
-      }
-    ],
     "url" : "/nyc",
     "city_image" : "/images/cities/nyc.png"
   }
