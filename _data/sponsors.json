@@ -4,7 +4,7 @@
       "type": "rival-boxed-gutter",
       "params": {
         "cols": 2,
-        "title": "Global Sponsors",
+        "title": "POWERED BY",
         "noContainer": true,
         "sponsors": [
           {
