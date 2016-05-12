@@ -142,5 +142,27 @@
         ]
       }
     }
+  ],
+
+  "Vancouver": [
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 2,
+        "title": "SUPPORTERS",
+        "sponsors": [
+          {
+            "name": "BrainStation",
+            "link": "http://www.brainstation.io/vancouver/",
+            "logo": "/images/sponsors/vancouver/brainstation.png"
+          },
+          {
+            "name": "Spring",
+            "link": "http://spring.is/",
+            "logo": "/images/sponsors/vancouver/spring.png"
+          }
+        ]
+      }
+    }
   ]
 }
