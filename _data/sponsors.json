@@ -182,9 +182,21 @@
         "title": "Sponsors",
         "cols": 3,
         "sponsors": [
-          { "name": "BuzzJs", "size": 3, "logo": "/images/sponsors/nyc/buzzjs.jpeg" },
-          { "name": "Brooklyn Brewery", "size": 3, "logo": "/images/sponsors/nyc/brooklyn.png" },
-          { "name": "Club-Mate", "size": 4, "logo": "/images/sponsors/nyc/club-mate.png" }
+          {
+            "name": "BuzzJs",
+            "logo": "/images/sponsors/nyc/buzzjs.jpeg",
+            "link": "http://buzzjs.com/?utm_source=startupbusnyc&utm_medium=sponsorpage&utm_campaign=buzzjs2016"
+          },
+          {
+            "name": "Brooklyn Brewery",
+            "logo": "/images/sponsors/nyc/brooklyn.png",
+            "link": "http://brooklynbrewery.com/"
+          },
+          {
+            "name": "Club-Mate",
+            "logo": "/images/sponsors/nyc/club-mate.png",
+            "link": "http://www.club-mate.us/"
+          }
         ]
       }
     }
