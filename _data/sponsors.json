@@ -59,7 +59,7 @@
           },
           {},
           {
-            "name": "Uber",
+            "name": "",
             "logo": "/images/sponsors/mexico/pb.png",
             "link": "https://www.paybook.com/"
           }
@@ -149,6 +149,27 @@
             "name": "Launchnet",
             "link": "http://students.case.edu/career/entre/launchnet/",
             "logo": "/images/sponsors/ohio/lnet.png"
+          }
+        ]
+      }
+    }
+  ],
+  "Mexico City": [
+      {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 2,
+        "title": "SUPPORTERS",
+        "sponsors": [
+          {
+            "name": "BBVA",
+            "logo": "/images/sponsors/mexico/bbva.png",
+            "link": "http://www.centrodeinnovacionbbva.com/en"
+          },
+          {
+            "name": "",
+            "logo": "/images/sponsors/mexico/pb.png",
+            "link": "https://www.paybook.com/"
           }
         ]
       }
