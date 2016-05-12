@@ -4,15 +4,14 @@
       "type": "rival-boxed-gutter",
       "params": {
         "cols": 2,
-        "title": "Global Sponsors",
+        "title": "POWERED BY",
         "noContainer": true,
         "sponsors": [
-                  {
+          {
             "name": "Cisco",
             "logo": "/images/sponsors/global/cisco-spark.png",
             "link": "https://www.ciscospark.com/"
           },
-
           {
             "name": "Uber",
             "logo": "/images/sponsors/global/uber.png",
@@ -21,7 +20,32 @@
         ]
       }
     },
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 3,
+        "noContainer": true,
+        "sponsors": [
+          {
+            "name": "Burton D. Morgon Foundation",
+            "link": "http://bdmorganfdn.org/",
+            "logo": "/images/sponsors/ohio/bdmf.png"
+          },
 
+          {
+            "name": "BBVA",
+            "logo": "/images/sponsors/mexico/bbva.png",
+            "link": "http://www.centrodeinnovacionbbva.com/en"
+          },
+
+          {
+            "name": "Knight Foundation",
+            "link": "http://www.knightfoundation.org/",
+            "logo": "/images/sponsors/ohio/kf.png"
+          }
+        ]
+      }
+    },
     {
       "type": "rival-boxed-gutter",
       "params": {
@@ -33,25 +57,16 @@
             "logo": "/images/sponsors/global/tropo.png",
             "link": "https://www.tropo.com/"
           },
-
+          {},
           {
-            "name": "Burton D. Morgon Foundation",
-            "link": "http://bdmorganfdn.org/",
-            "logo": "/images/sponsors/ohio/bdmf.png"
-          },
-          {
-            "name": "Knight Foundation",
-            "link": "http://www.knightfoundation.org/",
-            "logo": "/images/sponsors/ohio/kf.png"
+            "name": "",
+            "logo": "/images/sponsors/mexico/pb.png",
+            "link": "https://www.paybook.com/"
           }
         ]
       }
     }
-
-
-
   ],
-
   "Akron": [
     {
       "type": "rival-boxed-gutter",
@@ -72,7 +87,6 @@
         ]
       }
     },
-
     {
       "type": "rival-boxed-gutter",
       "params": {
@@ -91,8 +105,6 @@
         ]
       }
     },
-
-
     {
       "type": "rival-boxed-gutter",
       "params": {
@@ -117,7 +129,6 @@
         ]
       }
     },
-
     {
       "type": "rival-boxed-gutter",
       "params": {
@@ -143,7 +154,27 @@
       }
     }
   ],
-
+  "Mexico City": [
+      {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 2,
+        "title": "SUPPORTERS",
+        "sponsors": [
+          {
+            "name": "BBVA",
+            "logo": "/images/sponsors/mexico/bbva.png",
+            "link": "http://www.centrodeinnovacionbbva.com/en"
+          },
+          {
+            "name": "",
+            "logo": "/images/sponsors/mexico/pb.png",
+            "link": "https://www.paybook.com/"
+          }
+        ]
+      }
+    }
+  ],
   "Vancouver": [
     {
       "type": "rival-boxed-gutter",
