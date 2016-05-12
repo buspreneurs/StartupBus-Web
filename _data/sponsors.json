@@ -177,7 +177,7 @@
   ],
   "New York City": [
     {
-      "type": "row",
+      "type": "rival-boxed-gutter",
       "params": {
         "title": "Sponsors",
         "cols": 3,
