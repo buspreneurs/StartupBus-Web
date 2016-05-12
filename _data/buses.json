@@ -141,7 +141,8 @@
     },
     "conductors" : [{
       "name": "Donald Whyte",
-      "headshot" : "/images/headshots/2016/donald.jpg"
+      "headshot": "/images/headshots/2016/donald.jpg",
+      "bio": "Infrastructure Engineer at Bloomberg L.P. and data science enthusiast, Donald has participated, mentored and organised over 15 hackathons across three continents."
     }, {
       "name": "Laura Cartagena",
       "headshot" : "/images/headshots/2016/loli.jpg",
