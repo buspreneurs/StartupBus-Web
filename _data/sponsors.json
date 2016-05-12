@@ -136,9 +136,9 @@
         "title": "",
         "sponsors": [
           {
-            "name": "think[box]",
-            "link": "http://thinkbox.case.edu/",
-            "logo": "/images/sponsors/ohio/tb.png"
+            "name": "Coffee and Code",
+            "link": "http://www.coffeeandcode.com/",
+            "logo": "/images/sponsors/ohio/cac.png"
           },
           {
             "name": "WasteBits",
@@ -149,6 +149,20 @@
             "name": "Launchnet",
             "link": "http://students.case.edu/career/entre/launchnet/",
             "logo": "/images/sponsors/ohio/lnet.png"
+          }
+        ]
+      }
+    },
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 3,
+        "title": "",
+        "sponsors": [{},
+          {
+            "name": "think[box]",
+            "link": "http://thinkbox.case.edu/",
+            "logo": "/images/sponsors/ohio/tb.png"
           }
         ]
       }
