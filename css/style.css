@@ -25,6 +25,7 @@ html {
   -webkit-align-items: center;
   -webkit-box-align: center;
   align-items: center;
+  justify-content: center;
 }
 .sponsor img {
   transition: all .25s;
@@ -32,6 +33,11 @@ html {
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   -o-transition: all .25s;
+}
+.sponsor a {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .sponsor:hover img {
   -webkit-transform: scale(1.1) rotate(2deg);

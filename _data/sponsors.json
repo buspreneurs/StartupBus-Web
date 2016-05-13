@@ -196,7 +196,7 @@
   ],
   "New York City": [
     {
-      "type": "row",
+      "type": "rival-boxed-gutter",
       "params": {
         "title": "Sponsors",
         "cols": 3,
@@ -214,7 +214,7 @@
           {
             "name": "Club-Mate",
             "logo": "/images/sponsors/nyc/club-mate.png",
-            "link": "http://www.club-mate.us/"
+            "link": "http://club-mateusa.com/"
           }
         ]
       }
@@ -224,7 +224,7 @@
     {
       "type": "rival-boxed-gutter",
       "params": {
-        "cols": 2,
+        "cols": 3,
         "title": "SUPPORTERS",
         "sponsors": [
           {
@@ -236,6 +236,29 @@
             "name": "Spring",
             "link": "http://spring.is/",
             "logo": "/images/sponsors/vancouver/spring.png"
+          }
+        ]
+      }
+    },
+    {
+      "type": "rival-boxed-gutter",
+      "params": {
+        "cols": 3,
+        "sponsors": [
+          {
+            "name": "Trailhead Boise",
+            "link": "https://trailheadboise.org",
+            "logo": "/images/sponsors/vancouver/trailhead.svg"
+          },
+          {
+            "name": "MakerLabs",
+            "link": "http://www.makerlabs.com/",
+            "logo": "/images/sponsors/vancouver/makerlabs.png"
+          },
+          {
+            "name": "The Business Incubator Center",
+            "link": "http://gjincubator.org/",
+            "logo": "/images/sponsors/vancouver/gjincubator.png"
           }
         ]
       }
