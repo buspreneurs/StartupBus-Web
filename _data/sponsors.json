@@ -163,7 +163,12 @@
             "name": "WasteBits",
             "link": "http://wastebits.com",
             "logo": "/images/sponsors/ohio/wb.png"
-          }, {},
+          },
+          {
+            "name": "Cleveland Whiskey",
+            "link": "http://clevelandwhiskey.com/",
+            "logo": "/images/sponsors/ohio/cw.png"
+          },
           {
             "name": "think[box]",
             "link": "http://thinkbox.case.edu/",
