@@ -141,9 +141,9 @@
             "logo": "/images/sponsors/ohio/cac.png"
           },
           {
-            "name": "WasteBits",
-            "link": "http://wastebits.com",
-            "logo": "/images/sponsors/ohio/wb.png"
+            "name": "Boxcast",
+            "link": "https://www.boxcast.com/",
+            "logo": "/images/sponsors/ohio/bc.png"
           },
           {
             "name": "Launchnet",
@@ -158,7 +158,12 @@
       "params": {
         "cols": 3,
         "title": "",
-        "sponsors": [{},
+        "sponsors": [
+          {
+            "name": "WasteBits",
+            "link": "http://wastebits.com",
+            "logo": "/images/sponsors/ohio/wb.png"
+          }, {},
           {
             "name": "think[box]",
             "link": "http://thinkbox.case.edu/",
