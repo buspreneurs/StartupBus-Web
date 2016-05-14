@@ -26,6 +26,11 @@
   {% include content/mentors.html %}
   {% endif %}
 
+  {% if page.bus == 'Akron' %}
+  {% include ohio-panel.html %}
+  {% endif %}
+
+
   {% if site.data.sponsors[page.bus] %}
   {% include content/sponsors/sponsors.html %}
   {% endif %}
