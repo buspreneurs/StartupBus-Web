@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="twitter" unicode="&#xe802;" d="M920 636q-36-54-94-98l0-24q0-130-60-250t-186-203-290-83q-160 0-290 84 14-2 46-2 132 0 234 80-62 2-110 38t-66 94q10-4 34-4 26 0 50 6-66 14-108 66t-42 120l0 2q36-20 84-24-84 58-84 158 0 48 26 94 154-188 390-196-6 18-6 42 0 78 55 133t135 55q82 0 136-58 60 12 120 44-20-66-82-104 56 8 108 30z" horiz-adv-x="920" />
+
+<glyph glyph-name="facebook" unicode="&#xe803;" d="M500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
+
+<glyph glyph-name="instagram" unicode="&#xe808;" d="M760 54v362h-75q11-35 11-73 0-71-36-130t-97-94-134-35q-110 0-188 76t-78 183q0 38 11 73h-79v-362q0-14 10-24t25-10h596q14 0 24 10t10 24z m-158 298q0 69-51 118t-122 49q-71 0-121-49t-51-118 51-118 121-49q72 0 122 49t51 118z m158 201v92q0 15-11 27t-27 11h-98q-16 0-27-11t-11-27v-92q0-17 11-28t27-11h98q16 0 27 11t11 28z m97 116v-638q0-45-32-77t-78-33h-637q-45 0-78 33t-32 77v638q0 45 32 77t78 33h637q45 0 78-33t32-77z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,419 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background:#111111;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    text-transform:uppercase;
+}
+
+img {
+    max-height:100%;
+}
+
+.wrapper {
+    max-width:900px;
+    margin:0 auto;
+    width:85%;
+    position:relative;
+    margin-top:40px;
+}
+
+.container {
+    width:80%;
+    height:400px;
+        background:#353A46;
+        margin:0 auto;
+        padding-top:90px;
+}
+
+
+.ribbon {
+  width: 95%;
+  max-width: 1000px;
+  height: 80px;
+  margin: 40px auto; 
+  margin-bottom:0;
+  position: absolute;
+  left:2.5%;
+}
+
+.ribbon > div {
+  height: 50px;
+}
+
+.main {
+  background: #00ADF2; 
+  position: relative;
+  display: block;
+  width: 90%;
+  left: 50%;
+  top: 0;
+  padding: 5px;
+  margin-left: -45%;
+  z-index: 10;
+    text-align:center;
+  color:white;
+}
+
+.main span {
+    font-size:22px;
+    line-height:22px;
+}
+
+.bk {
+ background: #0088BF;
+ position: absolute;
+ width: 8%;
+ top: 11px;
+}
+
+.bk.l {
+ left: 0;
+}
+
+.bk.r {
+ right: 0;
+}
+
+.skew {
+  position: absolute;
+  background: #004F6F;
+  width: 3%;
+  top: 6px;
+  z-index: 5;
+}
+
+.skew.l {
+  left: 5%;
+  transform: skew(00deg,20deg);
+}
+
+.skew.r {
+  right: 5%;
+  transform: skew(00deg,-20deg);
+}
+
+.bk.l > div {
+  left: -25px;
+}
+
+.bk.r > div {
+  right: -25px;
+}
+
+.arrow {
+  height: 25px !important;
+  position: absolute;
+  z-index: 2;
+    width: 0; 
+    height: 0; 
+}
+
+.arrow.top {
+  top: 0px;
+  border-top: 0px solid transparent;
+    border-bottom: 25px solid transparent;  
+    border-right: 25px solid #0088BF; 
+}
+
+.arrow.bottom {
+  top: 25px;
+  border-top: 25px solid transparent;
+    border-bottom:0px solid transparent;    
+    border-right: 25px solid #0088BF; 
+}
+
+.r .bottom {
+  border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;   
+    border-left:25px solid #0088BF; 
+  border-right: none;
+}
+
+.r .top {
+  border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;  
+    border-left: 25px solid #0088BF; 
+  border-right: none;
+}
+
+@media all and (max-width: 1020px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,25deg);
+  }
+
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-25deg);
+  }
+}
+
+@media all and (max-width: 680px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,30deg);
+  }
+
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-30deg);
+  }
+}
+
+@media all and (max-width: 460px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,40deg);
+  }
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-40deg);
+  }
+}
+
+ol {
+    color:#00ADF2;
+    padding:0;
+    margin:0;
+}
+
+li {
+    list-style-position:inside;
+    border-bottom:1px solid #111111;
+    padding:2% 3.5%;
+    font-size:1.5em;
+}
+.row {
+    width:calc(50% - 30px);
+    display:inline-block;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.social {
+    color:white;
+    font-size:22px;
+}
+
+i.icon {
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    padding: 3px;
+    padding-right: 4px;
+    border-radius:50%;
+}
+
+i.icon:before {
+    position:relative;
+    top:2px;
+    left:1px;
+}
+
+
+.icon-instagram {
+    background:#517FA4;
+}
+.icon-facebook {
+    background:#3B5998;
+}
+.icon-twitter {
+    background:#4099FF;
+}
+
+.secondary {
+    text-align:right;
+    width:calc(40% - 30px);
+}
+.bus {
+    float:right;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
