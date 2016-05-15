@@ -313,6 +313,9 @@ i.icon:after {
     h2 span {
         display:none;
     }
+    h2 img {
+        margin:0;
+    }
 }
 
 @media only screen and (max-width: 560px) {
