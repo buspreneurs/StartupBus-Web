@@ -47,21 +47,30 @@ function initialize() {
     addBusMarkers();
 
     var points = []
-    function fetch_bus_line_color(bus) {
+      function fetch_bus_line_color(bus) {
         var line;
         switch(bus) { 
-        case "San Francisco":
-          line: "#6bc8d1";
-        case "Akron":
-          line: "#fc0f3f";
-        case "New York City":
-          line: "#fee834";
-        case "Mexico City":
-          line: "#ee9532";
-        case "Tampa":
-          line: "#246bd1";
-        case "Vancouver":
-          line: "#ab3f90";
+          case "San Francisco":
+            line = "#6bc8d1";
+            break;
+          case "Akron":
+            line = "#fc0f3f";
+            break;
+          case "New York City":
+            line = "#fee834";
+            break;
+          case "Mexico City":
+            line = "#ee9532";
+            break;
+          case "Tampa":
+            line = "#246bd1";
+            break;
+          case "Vancouver":
+            line = "#ab3f90";
+            break;
+          default:
+            line: "FFFFFF";
+            break;
         }
 
         return line;
@@ -89,9 +98,9 @@ function initialize() {
                     flightPath.setMap(window.map);
                 });
             }, //success
-        jsonpCallback: 'jsonCallback',
-        contentType: "application/json",
-        dataType: 'jsonp'
+          error:function(exception){
+            console.log(+exception);
+          }
         });
 
         google.maps.event.addListenerOnce(window.map, 'idle', function(){
