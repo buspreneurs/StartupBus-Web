@@ -102,3 +102,19 @@ li {
 div#map-canvas {
   height:100%;
 }
+
+.bus-name {
+  font-size: 4em;
+  letter-spacing: 2px;
+  padding-top: 1em;
+}
+.bus-theme {
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+@media (max-width:480px){
+  .caption-top {
+    font-size:72%
+}
+}
+
