@@ -63,6 +63,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight:200;
     text-transform:uppercase;
+    min-width:400px;
 }
 
 img {
@@ -72,7 +73,7 @@ img {
 .wrapper {
     max-width:900px;
     margin:0 auto;
-    width:85%;
+    width:95%;
     position:relative;
 }
 
@@ -145,22 +146,21 @@ ol {
     margin:0;
     counter-reset: item 
 }
-
 li {
     list-style-type: decimal-leading-zero;
     list-style-position: inside;
     border-bottom:1px solid #111111;
-    padding:2% 3.5%;
-    font-size:1.5em;
+    padding:1% 1.5%;
+    font-size:1.4em;
     list-style:none;
 }
 li:before {
     width:27px;
 }
 .startup {
-        display: flex;
-  flex-wrap: wrap;
-  position:relative;
+display: flex;
+flex-wrap: wrap;
+position:relative;
 }
 .startup * {
 line-height:60px;
@@ -190,6 +190,7 @@ div.avatar {
     position:relative;
     top:-2px;
     margin-left:10px;
+    float:right;
 }
 .social a {
     color:white;
@@ -239,17 +240,25 @@ i.icon:after {
     background:#aaa;
     opacity:0.8;
 }
+.details {
+    width:calc(100% - 110px);
+    height:60px;
+}
 .primary {
- flex-grow: 1;
-        display: flex;
-  flex-wrap: wrap;
+    width:56%;    
 }
 .primary span {
-     flex-grow: 1;
+    display:inline-block;
+}
+.name {
+    width:59%;
+}
+.bus {
+    width:39%;
 }
 .secondary {
-    text-align:right;
-    width:calc(38% - 30px);
+    width:42%;
+    float:right;
 }
 .bus {
     /*float:right;*/
@@ -261,6 +270,64 @@ i.icon:after {
 
 @media only screen and (min-width: 35em) {
 
+}
+@media only screen and (max-width: 1000px) {
+
+}
+@media only screen and (max-width: 850px) {
+    .details {
+        line-height:30px;
+    }
+    .primary {
+        width:calc(100% - 100px);
+    }
+    .secondary {
+        width:100px;
+    }
+    .primary span, .secondary span {
+        width:100%;
+    }
+    .row {
+        /*height:30px;*/
+        /*width:100%;*/
+        /*float:left;*/
+    }
+    .row *{
+        line-height:30px;
+    }
+    .row span {
+        float:left;
+    }
+    .row span.social {
+        font-size:18px;
+        float:right;
+    }
+    span.social a,span.social i.icon {
+        width: 28px;
+        height: 28px;
+        padding: 3px 0px 3px 1px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h2 span {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    body {
+        font-size:0.8em;
+    }
+    .container {
+        width:90%;
+    }
+    .ribbon {
+        width:95%;
+    }
+    .wrapper {
+        width:100%;
+    }
 }
 
 @media print,

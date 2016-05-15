@@ -12,6 +12,8 @@
             } else {
                 t += '<div class="avatar"></div>'
             }
+
+            t+= '<div class="details">';
             t += '<div class="row primary"><span class="name">';
             t += startup.name;
             t += '</span><span class="bus">';
@@ -41,7 +43,7 @@
                     t += '<i class="icon icon-instagram icon-locked"></i>';   
                 }             
                       
-            t += '</span></div></div></div>';
+            t += '</span></div></div></div></div>';
             return t;
     };
 
@@ -54,6 +56,7 @@
 
     function handleQueryResponse(response) {
         var dataTable = response.getDataTable();
+        dataTable.sort([{column:3, desc: true}]);
 
         for (var i=0, numRows = dataTable.getNumberOfRows(); i < numRows; i++ ){
             var startup = {};
