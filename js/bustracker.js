@@ -94,6 +94,13 @@ function initialize() {
         dataType: 'jsonp'
         });
 
+        google.maps.event.addListenerOnce(window.map, 'idle', function(){
+          updateMapBounds();
+        });
+
+    }); //document.ready
+
+    function updateMapBounds() {
         var current_bounds = window.map.getBounds();
         var van_pos = new google.maps.LatLng(49.2562176,-123.1939532);
         var tampa_pos = new google.maps.LatLng(27.9420771,-82.4707102);
@@ -104,7 +111,7 @@ function initialize() {
           bounds.extend(tampa_pos);
           window.map.fitBounds(bounds);
         }
-    }); //document.ready
+    }
 
     function addBusMarkers() {
         cities = _.map(starting_cities.cities, function(city) {
