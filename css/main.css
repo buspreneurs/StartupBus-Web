@@ -74,17 +74,15 @@ img {
     margin:0 auto;
     width:85%;
     position:relative;
-    margin-top:40px;
 }
 
 .container {
     width:80%;
-        background:#353A46;
-        margin:0 auto;
-        padding-top:100px;
-        z-index:-1;
-        position:relative;
-        top:-130px;
+    background:#353A46;
+    margin:0 auto;
+}
+.spacer {
+    height:40px;
 }
 
 .ribbon-wrapper {
@@ -101,10 +99,14 @@ img {
     font-size:24px;
     text-transform:uppercase;
     position:relative;
-    margin: 30px auto;
+    margin: 0 auto;
     color:#fff;
     font-weight:200;
     font-family: 'Roboto', sans-serif;
+}
+.ribbon span {
+    position:relative;
+    top:2px;
 }
 .ribbon img {
     margin-right:6px;
@@ -150,17 +152,36 @@ li {
     border-bottom:1px solid #111111;
     padding:2% 3.5%;
     font-size:1.5em;
+    list-style:none;
 }
 li:before {
     width:27px;
 }
+.startup {
+        display: flex;
+  flex-wrap: wrap;
+  position:relative;
+}
+.startup * {
+line-height:60px;
+
+}
 .row {
-    width:calc(54% - 30px);
     display:inline-block;
+}
+.count {
+    margin-right:10px;
 }
 
 .avatar {
     border-radius: 50%;
+    margin:0 10px 0 5px;
+    width:60px;
+    height:60px;
+    background:#aaa;
+}
+div.avatar {
+    opacity:0.8;
 }
 
 .social {
@@ -168,15 +189,19 @@ li:before {
     font-size:22px;
     position:relative;
     top:-2px;
+    margin-left:10px;
 }
-
+.social a {
+    color:white;
+    text-decoration: none;
+}
 i.icon {
     width: 37px;
     height: 37px;
-    display: inline-block;
-    padding: 3px;
-    padding-right: 4px;
+    display: inline-flex;
+    padding:5px 4px 3px 3px;
     border-radius:50%;
+    margin-right:5px;
 }
 
 i.icon:before {
@@ -210,13 +235,24 @@ i.icon:after {
 .icon-twitter {
     background:#4099FF;
 }
-
+.icon-locked {
+    background:#aaa;
+    opacity:0.8;
+}
+.primary {
+ flex-grow: 1;
+        display: flex;
+  flex-wrap: wrap;
+}
+.primary span {
+     flex-grow: 1;
+}
 .secondary {
     text-align:right;
     width:calc(38% - 30px);
 }
 .bus {
-    float:right;
+    /*float:right;*/
 }
 
 /* ==========================================================================
