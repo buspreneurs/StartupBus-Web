@@ -73,6 +73,24 @@ https://github.com/FortAwesome/Font-Awesome/wiki/Troubleshooting#stack-icons-ins
     top:0%;
 }
 
+.no-transparent {
+ background-color: rgba(10, 10, 10, .9) !important; 
+ padding-bottom: 0px !important;
+ padding-top: 0px !important;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  z-index: 5;
+  padding-left: 10px;
+}
+
+.caption-top {
+  vertical-align: top;
+  padding-top: 75px;
+}
+
 li {
   list-style: none;
 }
