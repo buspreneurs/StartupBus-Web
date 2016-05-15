@@ -1,4 +1,8 @@
+{% if page.url == "/" %}
+<nav id="nav" class="navbar navbar-custom navbar-fixed-top no-transparent" role="navigation">
+{% else %}
 <nav id="nav" class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
+{% endif %}
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
