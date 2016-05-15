@@ -5,6 +5,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     background:#111111;
+
 }
 
 ::-moz-selection {
@@ -64,6 +65,7 @@ body {
     font-weight:200;
     text-transform:uppercase;
     min-width:400px;
+        /*overflow-x: hidden;*/
 }
 
 img {
@@ -327,6 +329,8 @@ i.icon:after {
     }
     .ribbon {
         width:95%;
+            overflow-x: hidden;
+    overflow-y: hidden;
     }
     .wrapper {
         width:100%;
