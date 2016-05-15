@@ -80,3 +80,7 @@ li {
 #documentary {
   height: ;
 }
+
+div#map-canvas {
+  height:100%;
+}
