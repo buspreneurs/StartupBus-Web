@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StartupBus | {{ page.title }}</title>
+  {% include head.html %}
+</head>
+  <body>
+  <!-- Preloader -->
+  <div class="page-loader">
+    <div class="loader">Loading...</div>
+  </div>
+
+  {% include nav.html %}
+  {% include heros/bus_banner.html %}
+
+  {% comment %}
+    TODO:
+      The content tag below is where the buses will be able to personalize the page
+      I put conductors below that because that's where I put it, maybe we want to move it?
+  {% endcomment %}
+
+  {% include content/bus_details.html %}
+  {% include content/conductors.html %}
+
+  {% if site.data.buses[page.bus].mentors %}
+  {% include content/mentors.html %}
+  {% endif %}
+
+  {% if page.bus == 'Akron' %}
+  {% include ohio-panel.html %}
+  {% endif %}
+
+
+  {% if site.data.sponsors[page.bus] %}
+  {% include content/sponsors/sponsors.html %}
+  {% endif %}
+
+  <hr class="divider-w">
+
+  {% include widgets.html %}
+
+  <hr class="divider-d">
+
+  {% include footer.html %}
+  </body>
+</html>

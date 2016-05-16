@@ -1,0 +1,20 @@
+<div class="main">
+  <section id="sponsors" class="sponsors sponsors-section module-small">
+    <div class="sponsors mt-50">
+      {% for sponsorGroup in site.data.sponsors[page.bus] %}
+          {% assign sponsors=sponsorGroup.params.sponsors %}
+          {% assign params=sponsorGroup.params %}
+
+        {% case sponsorGroup.type %}
+
+        {% when 'row' %}
+          {% include content/sponsors/types/row.html %}
+
+        {% when 'rival-boxed-gutter' %}
+          {% include content/sponsors/types/rival-boxed-gutter.html %}
+
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      {% if params.title %}
+      <h2 class="font-alt text-center">{{ params.title }}</h2>
+      {% endif %}
+      <ul class="row flex-container">
+        {% for sponsor in sponsors %}
+        {% assign columns = 12 %}
+          <li class="sponsor col-md-{{ (columns | divided_by: params.cols) }}">
+            <a href="{{ sponsor.link }}" target="__blank">
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"/>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

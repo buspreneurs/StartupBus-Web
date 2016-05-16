@@ -1,0 +1,45 @@
+{% comment %}
+  TODO:
+  Atm the bus page headers are pretty generic.  Lets start with that and see about spicing them up later
+{% endcomment %}
+
+<!-- Home start -->
+<section id="home" class="home-section home-parallax home-fade home-full-height">
+
+  <div class="hero-slider">
+    <ul class="slides">
+
+      <li class="bg-dark-60 bg-dark" style="background-image:url({{ site.data.buses[page.bus].city_image }})">
+        <div class="hs-caption">
+          <div class="caption-content">
+            <div class="bus-name">
+              {{ site.data.buses[page.bus].name }}
+            </div>
+            <div class="bus-theme mb-30">
+              The {{ site.data.buses[page.bus].theme.name }} Bus
+            </div>
+            {% unless site.data.buses[page.bus].primary_sponsor %}
+              <div class="bus-route mb-40">
+                {{ page.bus_long }} → Boulder, CO
+              </div>
+            {% endunless %}
+
+            {% if site.data.buses[page.bus].primary_sponsor %}
+              <div class="primary-sponsor">
+                <p>POWERED BY</p>
+                <img class="primary-sponsor" src="{{ site.data.buses[page.bus].primary_sponsor }}">
+              </div>
+            {% endif %}
+
+            <br/>
+            <br/>
+            <a href="/apply#apply" class="btn btn-primary btn-round">Apply</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+</section >
+<!-- Home end -->

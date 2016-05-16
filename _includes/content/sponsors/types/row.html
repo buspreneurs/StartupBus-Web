@@ -1,0 +1,17 @@
+{% if params.title %}
+  <h2 class="font-alt text-center">{{ params.title }}</h2>
+{% endif %}
+
+<div class="row">
+  <div class="col-md-3"></div>
+  {% for sponsor in sponsors %}
+    <div class="sponsor col-md-{{ 6 | divided_by: sponsors.size }}">
+      <div class="sponsor-logo-container">
+        <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" style="height:200px;width: auto">
+      </div>
+      <div class="text-center">
+        <h3 class="font-alt">{{ sponsor.name }}</h3>
+      </div>
+    </div>
+  {% endfor %}
+</div>

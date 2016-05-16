@@ -1,0 +1,60 @@
+
+
+    <!-- Portfolio start -->
+    <section id="buses" class="module bg-dark">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-6 col-sm-offset-3">
+
+            <h2 class="module-title font-alt">Our Buses</h2>
+            <div class="module-subtitle font-sans-serif">
+              We currently have seven buses lined up. Each bus will be unlocked once we have enough applicants for it so <u><a href="apply.html">apply now</a></u> and select the bus you're interested in.
+            </div>
+            <!--<div class="module-subtitle font-sans-serif">
+              You can always try to tweet to <u><a href="https://twitter.com/TheStartupBus" target="_blank">@TheStartupBus</a></u> too!
+            </div>-->
+
+          </div>
+
+        </div><!-- .row -->
+
+      </div><!-- .container -->
+
+      <!-- Portfolio list start -->
+      <ul id="works-grid" class="works-grid works-grid-gut works-grid-3 works-hover-w">
+
+        {% for bus in site.data.buses %}
+        <!-- Portfolio item start -->
+        <li class="work-item illustration webdesign">
+        <a href="/buses{{ bus[1].url }}" class="work-item-link">
+          <div style="position:relative;overflow:hidden">
+            <img class="work-item-link-bg" src="{{ bus[1].city_image }}" alt=""/>
+            <div class="work-item-link-overlay"></div>
+            <img class="work-item-link-logo" src="/images/sb.png" alt=""/>
+            <div class="work-item-link-text">
+              <div class="work-item-link-title">{{ bus[0] }}</div>
+              <div class="work-item-link-subtitle">The {{ bus[1].theme.name }} Bus</div>
+            </div>
+          </div>
+
+
+<!--             <div class="work-image">
+              <img src="{{ bus[1].city_image }}" alt="">
+            </div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">{{ bus[0] }}</h3>
+              <div class="work-descr">
+                Locked
+              </div>
+            </div> -->
+          </a>
+        </li>
+        {% endfor %}
+        <!-- Portfolio item end -->
+      </ul>
+      <!-- Portfolio list end -->
+
+    </section>
+    <!-- Portfolio end -->

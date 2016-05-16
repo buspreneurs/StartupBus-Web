@@ -1,0 +1,7 @@
+exclude:
+  - /README.md
+  - /Gemfile
+  - /Gemfile.lock
+  - /vendor/bundle
+  - /.bundle
+gaq_id:

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StartupBus | {{ page.title }}</title>
+  {% include head.html %}
+</head>
+  <body>
+  <!-- Preloader -->
+  <div class="page-loader">
+    <div class="loader">Loading...</div>
+  </div>
+
+  {% include nav.html %}
+  {{ content }}
+
+  <hr class="divider-w">
+
+  {% include widgets.html %}
+
+  <hr class="divider-d">
+
+  {% include footer.html %}
+  </body>
+</html>
