@@ -904,7 +904,7 @@ Home Section
 
 .hs-title-size-2 {
   line-height: 1.3;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 22px;
 }
 
@@ -915,7 +915,7 @@ Home Section
 
 .hs-title-size-4 {
   font-weight: 400;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 /* Video */
