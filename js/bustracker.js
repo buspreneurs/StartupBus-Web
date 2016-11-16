@@ -49,38 +49,46 @@ function initialize() {
     var points = []
       function fetch_bus_line_color(bus) {
         var line;
+	var opacity;
         switch(bus) { 
           case "San Francisco":
             line = "#6bc8d1";
+	    var opacity = 1.0;
             break;
           case "Akron":
             line = "#fc0f3f";
+	    var opacity = 1.0;
             break;
           case "New York City":
             line = "#fee834";
+	    var opacity = 1.0;
             break;
           case "Mexico City":
             line = "#ee9532";
+	    var opacity = 1.0;
             break;
           case "Tampa":
             line = "#246bd1";
+	    var opacity = 1.0;
             break;
           case "Vancouver":
             line = "#ab3f90";
+	    var opacity = 1.0;
             break;
           default:
             line: "FFFFFF";
+	    var opacity = 0.0;
             break;
         }
 
-        return line;
+        return {"color": line, "opacity": opacity};
     }
-
 
     $(document).ready(function(){ 
         $.ajax({
           url: "http://subtracker.herokuapp.com/allPointsLowPrecision/2016",
             success: function(data){
+		
                 _.each(data.routes, function(route){
                     var lat_lng = [];
                     var lines = _.map(route.points, function(point){
@@ -91,8 +99,8 @@ function initialize() {
                     var flightPath = new google.maps.Polyline({
                         path: lat_lng,
                         geodesic: true,
-                        strokeColor: fetch_bus_line_color(route.name),
-                        strokeOpacity: 1.0,
+                        strokeColor: fetch_bus_line_color(route.name).color,
+                        strokeOpacity: fetch_bus_line_color(route.name).opacity,
                         strokeWeight: 5
                     });
                     flightPath.setMap(window.map);
