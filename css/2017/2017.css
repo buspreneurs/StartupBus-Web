@@ -2,7 +2,15 @@
   display: inline;
 }
 
-// ////////////////////////////
+
+.flex-direction-nav {
+  display: none !important;
+}
+
+.link-anchor {
+  position: relative;
+  top: -172px;
+}
 
 .hero {
   text-align: center;
@@ -12,9 +20,22 @@
 
 }
 
+.pudding-container {
+  background: rgba(10, 10, 10, .9) !important;
+}
+
 #the-pudding {
   color: white;
   background: rgba(10, 10, 10, .9);
+  transition: background 0.5s ease;
+  z-index: 99999 !important;
+  position: relative;
+  width: 100%;
+}
+
+.is-sticky #the-pudding {
+  background: rgba(10, 10, 10, .9);
+  left: 15px;
 }
 
 #the-pudding a {
@@ -39,11 +60,13 @@
   height: 5px;
   margin: 0 auto;
   width: 100px;
+  transition: background 0.5s ease;
+  background: rgba(255, 255, 255, 0);
 }
 
 
 .highligher.lit {
-
+  background: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 450px) {
