@@ -8,11 +8,11 @@
 
           <div class="col-sm-6 col-sm-offset-3">
 
-            <h2 class="module-title font-alt">Last Year's Buses</h2>
+            <h2 class="module-title font-alt">Our Buses</h2>
             <div class="module-subtitle font-sans-serif">
-              Want a 2017 bus in your city?<br />
-              <u><a href="https://startupbus.typeform.com/to/kIvv39" target="_blank">Pre-apply</a></u> now and we'll think about it.
+              <u><a href="apply.html">Apply now</a></u> and select the bus you're interested in.
             </div>
+
           </div>
 
         </div><!-- .row -->
@@ -25,14 +25,16 @@
         {% for bus in site.data.buses %}
         <!-- Portfolio item start -->
         <li class="work-item illustration webdesign">
-        <a href="/buses{{ bus[1].url }}" class="work-item-link">
+        <!-- <a href="/buses{{ bus[1].url }}" class="work-item-link"> -->
           <div style="position:relative;overflow:hidden">
             <img class="work-item-link-bg" src="{{ bus[1].city_image }}" alt=""/>
             <div class="work-item-link-overlay"></div>
             <img class="work-item-link-logo" src="/images/sb.png" alt=""/>
             <div class="work-item-link-text">
               <div class="work-item-link-title">{{ bus[0] }}</div>
-              <div class="work-item-link-subtitle">The {{ bus[1].theme.name }} Bus</div>
+              {% if bus[1].theme %}
+                <div class="work-item-link-subtitle">The {{ bus[1].theme.name }} Bus</div>
+              {% endif %}
             </div>
           </div>
 
@@ -46,7 +48,7 @@
                 Locked
               </div>
             </div> -->
-          </a>
+          <!-- </a> -->
         </li>
         {% endfor %}
         <!-- Portfolio item end -->

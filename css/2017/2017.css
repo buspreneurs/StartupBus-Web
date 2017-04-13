@@ -1,0 +1,53 @@
+.inline {
+  display: inline;
+}
+
+// ////////////////////////////
+
+.hero {
+  text-align: center;
+}
+
+.landing.hero {
+
+}
+
+#the-pudding {
+  color: white;
+  background: rgba(10, 10, 10, .9);
+}
+
+#the-pudding a {
+  color: white;
+  display: block;
+  padding-top: 15px;
+}
+
+.pudding-item {
+  text-align: center;
+}
+
+#the-pudding h3, #the-pudding h5 {
+  margin: 0;
+}
+
+#the-pudding-sticky-wrapper #the-pudding {
+  left: 15px;
+}
+
+.highligher {
+  height: 5px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+
+.highligher.lit {
+
+}
+
+@media (max-width: 450px) {
+  .plus-alumni {
+    display: none;
+  }
+}

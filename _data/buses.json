@@ -1,46 +1,16 @@
 {
-  "Akron": {
-    "name": "Akron, Ohio",
-    "theme":{
-      "name":"Maker",
-      "description": "Teams on the Akron bus will be working on businesses targeting the Internet of Things and the Maker movement.  Unlike other buses the Akron bus will have lots of hardware hacking and building of actual physical prototypes."
-    },
+  "Ohio": {
+    "name": "Ohio",
 
-    "mentors" : [{
-      "name": "Chris Bue",
-      "bio": "Nerdy girl embroiled in torrid love affair with her Roomba. Makes spreadsheets. Runs MakerBiz Chicago. Conductor of 2015 @StartupBusMAKE.",
-      "headshot" : "/images/headshots/2016/bue.jpg"
-    },
-    {
-      "name": "Christopher Laco",
-      "headshot": "/images/headshots/2016/laco.png",
-      "bio": "Sr. Mgr, Software Development @Rackspace. Co Founder of @Wastebits. 3 time bus alumni with a StartupBus tattoo. Perl lover. Ruby on Rails rider. Musician."
-    },
-    {
-      "name": "Gordon Schorr",
-      "headshot": "/images/headshots/2016/gordon.jpg",
-      "bio": "Senior Fellow, University of Akron Research Foundation. Guerrilla Entrepreneur without borders; connecting natural and logical partners to make others successful."
-    }],
+    "conductors" : [],
 
-    "conductors" : [{
-      "name": "Will Yaworsky",
-      "bio": "Adding things to the internet one toaster at a time.",
-      "headshot": "/images/headshots/2016/will.jpg"
-    },
-    {
-      "name": "Ray Lewis",
-      "headshot": "/images/headshots/2016/ray.jpg",
-      "bio": "Co-founded Wastebits on the 2012 StartupBus out of Las Vegas.  Since then Wastebits as Ray have been especially dedicated to giving back to the community that started it all: StartupBus."
-    }],
-    "url" : "/ohio",
+    "url" : "/2017/ohio",
     "city_image": "/images/cities/akron.jpg"
   },
 
   "Mexico City": {
     "name": "Mexico City",
-    "theme":{
-      "name":"Emerging Markets"
-    },
+
     "conductors" : [{
       "name": "Arianna Pacheco",
       "headshot": "/images/headshots/2016/arianna.png",
@@ -51,104 +21,45 @@
       "bio" : "Product Manager @Payclip, Co-founder of Local-e & Crafting Mexico. I love bringing concepts to reality. Just a crazy guy working on crazy projects.",
       "headshot": "/images/headshots/2016/yubi.jpg"
     }],
-    "url" : "/mexico",
+
+    "url" : "/2017/mex",
     "city_image" : "/images/cities/cdmx.jpg"
-
   },
-  "Vancouver": {
-    "name": "Vancouver",
-    "theme":{
-      "name":"Social Impact",
-      "description":"Teams from the Vancouver bus will be working with Social Impact as their theme. Basically, we want our buspreneurs to be building some kickass products and services that solve real-world social, cultural or environmental issues. So if you want to save the world, hop on the Vancouver bus!",
-    },
-    "conductors" : [{
-      "name": "Rui Da Costa",
-      "bio": "Rui is a UX developer in Rochester, NY who loves the web, his family, and ultimate frisbee.",
-      "headshot" : "/images/headshots/2016/rui.jpg"
-    },
-    {
-      "name": "Theresa Hines",
-      "headshot": "/images/headshots/2016/theresa.jpg",
-      "bio": "Theresa is a UX/UI designer in St. Louis, MO who loves optimizing digital experiences, craft beer, and anything outdoors."
-    }],
-    "invite":{
-      "text":"Give me an invite!",
-      "url":"https://twitter.com/intent/tweet?text=Hi%20%40StartupBusVan%2C%20do%20you%20know%20anyone%20who%20has%20an%20invite%20code%20for%20%23StartupBus%20Americas%202016%3F%20http%3A%2F%2Fbit.ly.startupbusvan",
-      },
-    "url" : "/vancouver",
-    "city_image" : "/images/cities/van.jpg"
 
-  },
   "San Francisco": {
     "name": "San Francisco",
-    "primary_sponsor":"/images/sponsors/uber-developers-logo-darkbg.png",
-    "theme":{
-      "name":"Transportation",
-      "description":"The transportation revolution is underway. No matter what time it is or where you're located, you’re minutes away from a ride. People are taking cars off the road by carpooling at the push of a button. And a new workforce of drivers is powering on-demand delivery. You can build the next great business on top of platforms like Uber, and in the process make getting from Point A to Point B more pleasant and productive. Hop in."
-    },
-    "conductors" : [{
-      "name": "Giovanni Barbieri",
-      "bio": "Hustler filling @StartupHouse with bootstrapping entrepreneurs. Former #firefighter with @acffiorentina blood in my veins. It might be contagious.",
-      "headshot": "/images/headshots/2016/gio.jpg"
-    },
-    {
-      "name": "Prateek Gupta",
-      "bio": "Developer Content @Pluralsight, ex-COO @airpair, SF Conductor @TheStartupBus, @DEMO Alumni, entrepreneur, traveler, foodie, and the family guy!",
-      "headshot" : "/images/headshots/2016/prateek.jpg"
-    }],
 
-    "mentors" : [{
-      "name": "Bill Brister",
-      "bio": "challenging the status quo - disrupting the normal everyday - we all have a purpose",
-      "headshot" : "/images/headshots/2016/bill.jpg"
-    },
-    {
-      "name": "Keit Kollo",
-      "headshot": "/images/headshots/2016/keit.png",
-      "bio": "Passionate to the last pixel combining free spirit and love for technology. UX @WeavMusic & Director @theStartupBus Europe"
-    },
-    {
-      "name": "Andrew Noonan",
-      "headshot": "/images/headshots/sponsors/noonan.png",
-      "bio": "Developer Platform @uber. Formerly @asana, @Twitter & @Gnip. Skier. Mnt Biker. Is there WiFi on this plane?"
-    }],
-    "url" : "/sanfrancisco",
+    "conductors" : [],
+
+    "url" : "/2017/sf",
     "city_image" : "/images/cities/sfo.png"
   },
-  "Tampa": {
-    "name": "Tampa",
-    "theme":{
-      "name":"Food and Beverage"
-    },
-    "conductors" : [{
-      "name": "Justin Davis",
-      "headshot": "/images/headshots/2016/justin.jpg",
-      "bio": "I help companies make products that rock. Co-founder and design at First Chair Partners. Creator of @gojampay. Also, bourbon."
-    },
-    {
-      "name": "Ashley Mooney",
-      "headshot": "/images/headshots/2016/ashley.jpg",
-      "bio": "Integrated Marketing Director in Tampa, FL with a  penchant for caffeine, cats and conversions."
-    }],
-    "url" : "/tampa",
+
+  "St. Louis": {
+    "name": "St. Louis",
+
+    "conductors" : [],
+
+    "url" : "/2017/stl",
+    "city_image": "/images/cities/stl.png"
+  },
+
+  "Florida": {
+    "name": "Florida",
+
+    "conductors" : [],
+
+    "url" : "/2017/florida",
     "city_image" : "/images/cities/tampa.jpg"
   },
+
   "New York City": {
     "name": "New York City",
-    "theme":{
-      "name":"Press and Media",
-      "description" : "How will your startup leverage the many platforms in todays market to create media and get the press they need to succeed? Whether you are a company or personal brand you use press and media to reach your clientele. Snapchat, Instagram, Twitter, Periscope & Facebook each allow us to produce and share media to generate press and gain exposure. New York City is not only a media hub but a city that relies on the press for information. The New York City bus will look at the way the press and media are used today and work to establish the platforms of tomorrow."
-    },
-    "conductors" : [{
-      "name": "Donald Whyte",
-      "headshot": "/images/headshots/2016/donald.jpg",
-      "bio": "Infrastructure Engineer at Bloomberg L.P. and data science enthusiast, Donald has participated, mentored and organised over 15 hackathons across three continents."
-    }, {
-      "name": "Laura Cartagena",
-      "headshot" : "/images/headshots/2016/loli.jpg",
-      "bio" : "Producer at Picture Farm, Founder of Create Collect, creative & dreamer living and working in New York City."
-    }],
-    "url" : "/nyc",
+
+    "conductors" : [],
+
+    "url" : "/2017/nyc",
     "city_image" : "/images/cities/nyc.png"
   }
+
 }
